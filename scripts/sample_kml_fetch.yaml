@@ -1,0 +1,21 @@
+curl 'https://www.masssavedata.com/Public/GoogleEarth' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cache-control: max-age=0' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -b 'ASP.NET_SessionId=jhckguvf4kzzfrouto5nf553' \
+  -H 'dnt: 1' \
+  -H 'origin: https://www.masssavedata.com' \
+  -H 'priority: u=0, i' \
+  -H 'referer: https://www.masssavedata.com/Public/GoogleEarth' \
+  -H 'sec-ch-ua: "Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: document' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'sec-gpc: 1' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36' \
+  --data-raw '__EVENTTARGET=&__EVENTARGUMENT=&__VIEWSTATE=%2FwEPDwUKLTEwMjEzMTY3OQ9kFgJmD2QWAgIDD2QWAgIBD2QWAgIHDxYCHgVzdHlsZQURZm9udC13ZWlnaHQ6Ym9sZDtkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBR1jdGwwMCRMb2dpbkNvbnJvbCRjaGtSZW1lbWJlctM29rxZC09DVooqA2ONxE3mhy1wxB7VvuKqcNvXTdjg&__VIEWSTATEGENERATOR=2A302C64&__EVENTVALIDATION=%2FwEdAAjWSb7Gav9rcXi3S2N9MGJt5A%2BRDa84lzFgFIWF41bYijgNvF1ei7QQ9tmYNXPHwa94J1pAgGi%2BOoUaFw76Bv8q7Vy5CUJMQUA%2FsiriNn7TpbIWfMaQYhtFZGyzy7qsLR394v0V1KC43SfYvOFnDgLf%2Bj1c9LNidh8zZm0Pbr%2BhtvOH1luIm1d66COv1RvSBuAAa44os3fn0lFxUIK3QVS6&ctl00%24MasterContent%24ddlKMZFiles=Abington&ctl00%24MasterContent%24btnDownload=Download&ctl00%24MasterContent%24hdnPublic=1&ctl00%24LoginConrol%24txtUserId=&ctl00%24LoginConrol%24txtPassword='
