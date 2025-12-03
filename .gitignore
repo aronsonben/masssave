@@ -4,3 +4,6 @@ OpenDataMA.code-workspace
 # Dont need to commit the KMLs as they have already been processed ? 
 data/masssave_kmls/
 data/masssave_kmls_unzipped/
+
+# this file turns out to be huge and can be generated locally, dont commit it
+data/masssave_participation_map.html
