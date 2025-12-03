@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="Municipality">
+  <name>Municipality</name>
+  <Snippet></Snippet>
+  <Folder id="GroupLayer0">
+    <name>Municipality</name>
+    <Snippet></Snippet>
+    <description><![CDATA[<img src="https://www.masssavedata.com/Images/logo.png">
+<br></br>
+https://www.masssavedata.com/Public/GoogleEarth
+<br></br>
+<a href="https://www.masssave.com/">https://www.masssave.com/</a>
+<br></br>
+The PAs' municipal geotargeting tool provides community stakeholders with a one-stop file presenting energy efficiency program geographic participation data at the block group level.  Alongside the PAs’ aggregated, data socio-economic information from the American Communities Survey is also presented for the block groups.  This information in intended to enable community partners with insights to understand which areas of their service network may be appropriate targets for target outreach.
+<br></br>
+The data files can be leveraged though either Google Earth’s desktop environment or via the Google Earth web interface.  
+<br></br>
+For users on the web interface, you can take advantage of using the PAs’ provided data to narrowly tailor your outreach target area, and then turn off the PAs’ data layers to interact with Google’s underlying data that includes service hours, phone numbers, and websites.  This information is maintained by Google and is independent of the PAs’ data layers.
+<br></br>
+Users looking for additional non-geographic data such as measures installed, building counts, and data analyses traditionally found in the PAs Customer Profile Reports can find interactive charts, tables, and reporting tools from the PA’s Veracity Dashboard hosted by DNV.  The dashboard is free to the public, though a registration account is required, and aggregated data can be exported for custom analyses.  The dashboard can be accessed at https://insight.dnvgl.com/MACustomerProfile or via the “My Services” menu tab at www.veracity.com once an account has been created.
+]]></description>
+  <Folder id="GroupLayer1">
+    <name>Read Me First - User Interface Instructions</name>
+    <Snippet></Snippet>
+    <description><![CDATA[<img src="https://www.masssavedata.com/Images/logo.png">
+<br></br>
+https://www.masssavedata.com/Public/GoogleEarth 
+<br></br>
+The PAs' municipal geotargeting tool provides community stakeholders with a one-stop file presenting energy efficiency program geographic participation data at the block group level.  Alongside the PAs’ aggregated data, socio-economic information from the American Communities Survey is also presented for the block groups as well as building type information and counts from the MA Level 3 Tax Assessor Database.  This information is intended to enable community partners with insights to identify areas of their service network which may be appropriate targets for outreach.
+<br></br>
+The data files can be leveraged though either Google Earth’s desktop environment or via the Google Earth web interface.  
+<br></br>
+Users take advantage of the PAs’ provided geographic data to narrowly tailor your outreach target area, and then turn off the PAs’ data layers to interact with Google’s underlying data which includes service hours, phone numbers, and websites.  This material can be accessed via pop-up windows or using the “search” box in the Google desktop or web interfaces.  This information is maintained by Google and is independent of the PAs’ data.
+<br></br>
+Users looking for additional non-geographic data such as measures installed, building counts, and data analyses traditionally found in the PAs Customer Profile Reports can find interactive charts, tables, and reporting tools from the PA’s Veracity Dashboard hosted by DNV.  The dashboard is free to the public, though a registration account is required, and aggregated data can be exported for custom analyses.  The dashboard can be accessed at https://www.masssavedata.com/Public/CustomerProfileDashboard.
+]]></description>
+  <Folder id="GroupLayer2">
+    <name>Read Me - Initial Map Set Up On Opening</name>
+    <Snippet></Snippet>
+    <description><![CDATA[On initial load of the KMZ files to either Google Earth on the web or Google Earth Desktop all data layers in the KMZ file are turned on.  This is done primarily for ease of stakeholders using Google Earth on the web as it is easier to turn off parent folders while leaving child layers active for later use then it is to turn on all the child layers individually on initial load.
+<br></br>
+Parent layers, and individual child layers, can be turned off in Google Earth by clicking on the eye logo to the right of each layer name.  
+<br></br>
+In Google Earth desktop layers can be turned off or on using the check box to the left of the layer names.
+]]></description>
+  </Folder>
+  <Folder id="GroupLayer3">
+    <name>Using the Maps and Other Commonly Asked Questions </name>
+    <Snippet></Snippet>
+    <description><![CDATA[<b>How do I turn layers off and on? </b>  On the Google Earth online platform, layers can be turned on and off using the eye icon to the left of the layer. When a layer is turned off (shown as an eye with a slash through it) it will turn gray and it will not be selectable or impact the visual on the screen.   
+<br></br>
+On the Google earth desktop environment the layers can be turned on and off simply with the checkbox.
+<br></br>
+<b>How do I zoom to a specific zip code or block group? </b>  On the Google Earth online platform users can zoom to a specific zip code, block group, or other sub-region of the map by double clicking on the label in table of contents.  This will work regardless of if the layer is enable or not.   
+<br></br>
+<b> When I click on the map, why do I get data for a different layer than the one I am seeing? </b>   As currently set up the Google earth files will select the <u>bottom most active layers attributes</u>.  Some layers, such as the zip code business count, do not have any color fill; if these layers are left on, all mouse clicks will bring a pop-up window of business count data.  
+<br></br>
+For most reliable results when pointing and clicking on a layer, it is best to have the single layer you are interacting with enabled, and turn off the other layers.
+<br></br>
+<b>How can I change the color scheme? </b>  The color scheme in the KML and KMZ files cannot be changed in bulk for a layer, though individual block groups can be recolored if required.  The reason the layer level color schemes are locked is due to how the decile break points, layer transparencies, and different data elements work in tandem to ensure that as users turn on multiple layers the one that has the most important data elements will appear as the darkest colors.
+<br></br>
+<b>What should I do if I accidently deleted or edited a layer? </b>  In the event you accidently have edited a layer or made a change you do not want, simply re-download the layer and reload to Google earth.  All layers once downloaded are stored locally on your machine so that you can manipulate them without having to be online and so that additional data can be integrated to support your needs.  However, please be aware that <u>locally made edits are not captured in the online master files</u> so if you chose to redownload and start fresh with a KML file you will lose any edits made to your local copy.
+<br></br>
+<b>Why does the online map appear choppy? </b>  If 3D buildings are available for your town and have been left turned on, the map may appear to have a choppy appearance.  To resolve this you can turn off the 3D building option in the web map interface under the map style option (sixth icon down that looks like a square with a chevron under it).
+<br></br>
+<b>How can I see street names and businesses? </b>  In the web map interface under the map styles (sixth icon down that looks like a square with a chevron under it) you can select different degrees of detail on the map ranging from “clean” with minimal details to fully customized with point information, websites, operating hours and phone numbers from Google’s database.  
+ Please note that the PAs do not provide this data and have no control over its quality or presence.
+<br></br>
+<b>Where can I get additional data? </b>  The PAs have a large volume of aggregated data that is available on the MassSave Data (www.masssave.com) platform.  Additional granular data can be accessed though the PAs online data dashboard tool housed on the Veracity platform maintained by DNV and hyperlinked from the MassSave Data homepage.
+<br></br>
+<b>What should I do if I have additional questions? </b>  In the event you have additional questions, please contact your Municipal’s PA coordination representative for support.  
+<br></br>
+]]></description>
+  </Folder>
+  <Folder id="GroupLayer4">
+    <name>Definitions and Glossary</name>
+    <Snippet></Snippet>
+    <description><![CDATA[<b>Participation Rates:</b> participation rates for a block group are calculated by taking the number of unique addresses (e.g. 1 Main St) in the PA’s clean and standardized data and dividing this by the total number of unique addresses in the PAs’ clean and standardized customer billing population for the same block group.
+<br></br>
+<b>Accounts</b> are calculated as of December 2019.  This is done to maintain consistency with PA regulatory reporting and to provide stakeholders with an approximation of how many active customers, in the form of accounts, are present in each block group.  The account data grain is in between the locations used for participation rate and household counts from ACS.  E.g. a location can consist of one or many households, and each household may consist of one or many accounts.  Exceptions to this rule exist, primarily for gas locations that are served by a master meter.  In these situations the household count will exceed the account and location counts.
+<br></br>
+<b>Households:</b> household counts are estimates provided by the American Communities Survey data.  This data is collected and maintained independent of the PAs’ data, and although households and locations are a similar grain of data, they are not identical.  A single family location would consist of one household, while a single multifamily location may consist of many households.  For this reason the number of ACS household estimates will differ from the number of PA served customer locations.
+<br></br>
+<b>Rankings: </b> Block groups are rank ordered for selected PA and ACS ratios to help stakeholders assess how each block group and variable fits into the larger town level participation story.  The block groups are ranked by highest concentration to lowest concentration of the variable of interest.  For example: In a town with 10 block groups, the block group with the lowest participation rate would show in the participation ranking as “Ranked 10 out of 10 block groups”; if the same block group also happened to have the highest renter occupied household the ranking of renter occupied households would show up as “ranked 1 our of 10 block groups” for the renter occupied household ranking.  
+]]></description>
+  </Folder>
+  <Folder id="FeatureLayer5">
+    <name>How to read the layers in the map</name>
+    <Snippet></Snippet>
+    <description><![CDATA[The municipal mapping interface uses a decile gradient to group data for visualizations.  The individual layers are set with a 50% transparency so that multiple layers can be combined for visual assessment.  As more layers are overlaid, areas with consistently higher imperative for the attribute in question (e.g. higher percent of households identified by ACS as renter, lower overall PA participation) will appear darker on the map as the individual layer’s dark colors blend together.  A blue color gradient has been used for the ACS data, while the PAs residential participation data is done using a grayscale color gradient; in both cases light colors indicate a low imperative (e.g. there are not many renter households, there has been a lot of historical participation) while darker colors reflect the higher imperative areas.
+<br></br>
+Below is an illustrative example take from the web illustrating how the color gradients interact, using the blue color scheme visually overlay.
+<br></br>
+<img src="https://diaazul.github.io/powerBI-visual-Heatmap3/assets/selectionExample2.png" style="max-width:600px">]]></description>
+  </Folder>
+  </Folder>
+  <Folder id="GroupLayer6">
+    <name>Overlays</name>
+    <Snippet></Snippet>
+    <description><![CDATA[The overly folder provides users with several familiar ways to drill into the data including town boundaries and zip codes.  
+<br></br>
+A layer for block group participation is provided to support visual overlays with analysis layers.  The participation runs from dark to light by ranking the block groups.
+]]></description>
+  <Folder id="FeatureLayer7">
+    <name>Town Boundary</name>
+    <Snippet></Snippet>
+    <description><![CDATA[The political boundary datalayer is a 1:25,000 scale datalayer containing the boundaries of the 351 communities (cities and towns) in Massachusetts. This data is taken from the MassGIS website.]]></description>
+    <Placemark id="ID_70000">
+      <name>BERLIN</name>
+      <Snippet></Snippet>
+      <styleUrl>#PolyStyle70</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.60416487158879,42.39769018908036,0 -71.62447449831714,42.40681622329885,0 -71.63041126830626,42.40949749401373,0 -71.66065412672816,42.41828980977378,0 -71.66807761434036,42.39457283826138,0 -71.67656404269479,42.3961136399839,0 -71.67879659792469,42.389162331495,0 -71.67060180452995,42.3866844317888,0 -71.67451872342826,42.37509930037353,0 -71.67787559766612,42.36521810189325,0 -71.67637207208546,42.36491711679354,0 -71.63391788818741,42.35845077745174,0 -71.6245074855799,42.35060190195735,0 -71.60990197895234,42.35757253318844,0 -71.60320613306986,42.36738394581963,0 -71.6077694314917,42.37022238555321,0 -71.59930068724252,42.37511004696528,0 -71.58025565688237,42.3869297596205,0 -71.60416487158879,42.39769018908036,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+  <Folder id="FeatureLayer8">
+    <name>Satellite Mask</name>
+    <Snippet></Snippet>
+    <description><![CDATA[The political boundary datalayer is a 1:25,000 scale datalayer containing the boundaries of the 351 communities (cities and towns) in Massachusetts. This data is taken from the MassGIS website.]]></description>
+    <Placemark id="ID_80000">
+      <name>BERLIN</name>
+      <Snippet></Snippet>
+      <styleUrl>#PolyStyle80</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.60416487158879,42.39769018908036,0 -71.62447449831714,42.40681622329885,0 -71.63041126830626,42.40949749401373,0 -71.66065412672816,42.41828980977378,0 -71.66807761434036,42.39457283826138,0 -71.67656404269479,42.3961136399839,0 -71.67879659792469,42.389162331495,0 -71.67060180452995,42.3866844317888,0 -71.67451872342826,42.37509930037353,0 -71.67787559766612,42.36521810189325,0 -71.67637207208546,42.36491711679354,0 -71.63391788818741,42.35845077745174,0 -71.6245074855799,42.35060190195735,0 -71.60990197895234,42.35757253318844,0 -71.60320613306986,42.36738394581963,0 -71.6077694314917,42.37022238555321,0 -71.59930068724252,42.37511004696528,0 -71.58025565688237,42.3869297596205,0 -71.60416487158879,42.39769018908036,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+  <Folder id="GroupLayer9">
+    <name>Zip Codes</name>
+    <Snippet></Snippet>
+    <description><![CDATA[Geographic boundaries of U.S. Postal Service five-digit ZIP Code areas from HERE (Navteq), aligned to the street centerlines of the Q2 2015 HERE core map release. HERE (the company that now includes data products that were formerly branded as "Navteq") maintains several versions of postal code data. The version distributed by MassGIS is an extract of HERE's nationwide "Un-generalized, without water holes, with County" layer. This dataset displays water features on coastlines but does not include water holes, and includes ZIP Code boundaries split at County boundaries. The HERE Postal Code Boundaries product does not have void areas in postal coverage, even if such non-delivery areas exist in reality (such as a remote mountainous area). This is by design, for aesthetic purposes and to ensure that a postal code is assigned to all geographic areas. MassGIS added the 02222 ZIP Code in Boston and made minor edits to the boundary of the 02108 and 02114 ZIP Codes in Boston based on ancillary address data. MassGIS also projected the data into the Massachusetts State Plane Mainland coordinate system.]]></description>
+  <Folder id="FeatureLayer10">
+    <name>Zip Code Label</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_100000">
+      <name>01503</name>
+      <Snippet></Snippet>
+      <styleUrl>#IconStyle100</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> -71.62871310015544,42.38374992264233,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Folder id="FeatureLayer11">
+    <name>Zip Code Boundaries</name>
+    <Snippet></Snippet>
+    <description><![CDATA[Geographic boundaries of U.S. Postal Service five-digit ZIP Code areas from HERE (Navteq), aligned to the street centerlines of the Q2 2015 HERE core map release.HERE (the company that now includes data products that were formerly branded as "Navteq") maintains several versions of postal code data. The version distributed by MassGIS is an extract of HERE's nationwide "Un-generalized, without water holes, with County" layer. This dataset displays water features on coastlines but does not include water holes, and includes ZIP Code boundaries split at County boundaries. The HERE Postal Code Boundaries product does not have void areas in postal coverage, even if such non-delivery areas exist in reality (such as a remote mountainous area). This is by design, for aesthetic purposes and to ensure that a postal code is assigned to all geographic areas.MassGIS added the 02222 ZIP Code in Boston and made minor edits to the boundary of the 02108 and 02114 ZIP Codes in Boston based on ancillary address data. MassGIS also projected the data into the Massachusetts State Plane Mainland coordinate system.]]></description>
+    <Placemark id="ID_110000">
+      <name>01749</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>01749</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Zip Code</td>
+<td>01749</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>TOWN_ID</td>
+<td>28</td>
+</tr>
+<tr>
+<td>TOWN</td>
+<td>BERLIN</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>COUNTY</td>
+<td>WORCESTER</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle70</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.60320613306986,42.36738394581963,0 -71.60760920708268,42.37012272364031,0 -71.60776048724077,42.37003067722547,0 -71.6074103899898,42.3698258765373,0 -71.6067776927361,42.36945437655611,0 -71.60637509598951,42.3692201760521,0 -71.60631409618775,42.36918407641446,0 -71.60605819741886,42.36898467616651,0 -71.60591249904449,42.36894807640275,0 -71.60577399876033,42.36886557639843,0 -71.60546360153218,42.36868157554908,0 -71.60515360269226,42.36850097564013,0 -71.60424760851996,42.36796857501957,0 -71.60396800996874,42.36780257474548,0 -71.60331321440209,42.36741867512441,0 -71.6032222581923,42.36736031796855,0 -71.60320613306986,42.36738394581963,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.59382375218601,42.37854478970617,0 -71.59822453060218,42.37589858535139,0 -71.59885552816805,42.37550148503055,0 -71.60242550524959,42.37330658545346,0 -71.59930068724252,42.37511004696528,0 -71.58025565688237,42.3869297596205,0 -71.58025992311814,42.38693167962832,0 -71.5803398249288,42.38687880212655,0 -71.58051982442865,42.38676880243776,0 -71.58061982428374,42.38671880235006,0 -71.58072182332931,42.3866758021981,0 -71.58104382147654,42.38657210201316,0 -71.58323180868293,42.38513879984191,0 -71.58499979954515,42.38401579843801,0 -71.58539179686295,42.38375479781286,0 -71.58792978362027,42.38221879541781,0 -71.58805978229925,42.38233879528605,0 -71.58806978297092,42.38230879499105,0 -71.58815978156912,42.38218879511122,0 -71.5882297812191,42.38206879519189,0 -71.58830178130854,42.38197279500714,0 -71.5896997744303,42.38110679365926,0 -71.58983067338251,42.38102549305393,0 -71.59382375218601,42.37854478970617,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.59526463051424,42.39362740771892,0 -71.59435113573822,42.39322120677949,0 -71.59340964262508,42.39282520697135,0 -71.59257612554146,42.39247463037771,0 -71.59592199077271,42.39398044975579,0 -71.59575652650884,42.39383100737454,0 -71.59552842898764,42.39375220709692,0 -71.59543472901719,42.39371410701116,0 -71.59526463051424,42.39362740771892,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_110001">
+      <name>01740</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>01740</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Zip Code</td>
+<td>01740</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>TOWN_ID</td>
+<td>28</td>
+</tr>
+<tr>
+<td>TOWN</td>
+<td>BERLIN</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>COUNTY</td>
+<td>WORCESTER</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle70</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.60605865708834,42.39823081059672,0 -71.60601365646076,42.39812081010805,0 -71.60492769379106,42.3980329594553,0 -71.6063442582943,42.39866948594187,0 -71.60631665406162,42.39861581117444,0 -71.60631265389266,42.39859681104628,0 -71.60624565535126,42.39856981077167,0 -71.60618965510226,42.39854481061501,0 -71.60614765538175,42.39850281030104,0 -71.60612065563528,42.39841981039378,0 -71.60610965649372,42.39836081046035,0 -71.60608165619289,42.39830181089396,0 -71.60605865708834,42.39823081059672,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.63041126830626,42.40949749401373,0 -71.66059427458059,42.41827240918652,0 -71.6606332342196,42.41810181979012,0 -71.6571962625297,42.41707682007537,0 -71.65389328893345,42.41605981924224,0 -71.64893322905255,42.41466411908525,0 -71.63937940436946,42.41197581856056,0 -71.63311755426288,42.40953861707327,0 -71.63142246734466,42.40887881673738,0 -71.63137946837829,42.40885781663018,0 -71.63136846754829,42.40885581708483,0 -71.6312264697,42.40879281707338,0 -71.63118946964812,42.4087788168515,0 -71.63036647524289,42.40875981731163,0 -71.62868998246925,42.4087200953697,0 -71.63041126830626,42.40949749401373,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_110002">
+      <name>01752</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>01752</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Zip Code</td>
+<td>01752</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>TOWN_ID</td>
+<td>28</td>
+</tr>
+<tr>
+<td>TOWN</td>
+<td>BERLIN</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>COUNTY</td>
+<td>WORCESTER</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle70</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.60987559508205,42.35761326184307,0 -71.60990272970228,42.35757217505993,0 -71.60990197895234,42.35757253318844,0 -71.60985340901333,42.35764370258713,0 -71.60987559508205,42.35761326184307,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_110003">
+      <name>01532</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>01532</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Zip Code</td>
+<td>01532</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>TOWN_ID</td>
+<td>28</td>
+</tr>
+<tr>
+<td>TOWN</td>
+<td>BERLIN</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>COUNTY</td>
+<td>WORCESTER</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle70</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.63066260158877,42.35581975703842,0 -71.63267458835668,42.35748175816838,0 -71.63320858376035,42.35806675858827,0 -71.63356270710845,42.35815453387813,0 -71.63026279838626,42.35540219963114,0 -71.63031760393372,42.35549575679498,0 -71.63066260158877,42.35581975703842,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.63816311591006,42.35909738273482,0 -71.63609689520317,42.35878266889196,0 -71.63718656215934,42.35905275905706,0 -71.63816311591006,42.35909738273482,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.63841994403195,42.35913650075635,0 -71.63890755377649,42.35929875904304,0 -71.63902255321185,42.35931085938847,0 -71.64078732381486,42.35949708436976,0 -71.63841994403195,42.35913650075635,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.66930738840597,42.36392875897504,0 -71.67048538231423,42.36410375902369,0 -71.67617034958134,42.36494075938915,0 -71.67618493976431,42.364888614467,0 -71.64377167471426,42.35995164097624,0 -71.6438412282766,42.35998305929367,0 -71.64396452657293,42.36003875926904,0 -71.64399852705408,42.36004375916907,0 -71.64415852566904,42.36006975956565,0 -71.64656651362385,42.36045475905595,0 -71.65437147180533,42.36160075962839,0 -71.66930738840597,42.36392875897504,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_110004">
+      <name>01505</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>01505</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Zip Code</td>
+<td>01505</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>TOWN_ID</td>
+<td>28</td>
+</tr>
+<tr>
+<td>TOWN</td>
+<td>BERLIN</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>COUNTY</td>
+<td>WORCESTER</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle70</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.67852723126522,42.38922978418878,0 -71.6787637771204,42.38926452312438,0 -71.67879659792469,42.389162331495,0 -71.67060180452995,42.3866844317888,0 -71.67451872342826,42.37509930037353,0 -71.67787559766612,42.36521810189325,0 -71.67637207208546,42.36491711679354,0 -71.67618493976431,42.364888614467,0 -71.67617034958134,42.36494075938915,0 -71.67756134204257,42.36522875882206,0 -71.67289430768409,42.37908377478799,0 -71.67034229106596,42.38674378339018,0 -71.67693224347782,42.38879478475505,0 -71.67852723126522,42.38922978418878,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_110005">
+      <name>01503</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>01503</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Zip Code</td>
+<td>01503</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>TOWN_ID</td>
+<td>28</td>
+</tr>
+<tr>
+<td>TOWN</td>
+<td>BERLIN</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>COUNTY</td>
+<td>WORCESTER</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle70</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.67776022698169,42.39115678691567,0 -71.67852723126522,42.38922978418878,0 -71.67693224347782,42.38879478475505,0 -71.67034229106596,42.38674378339018,0 -71.67289430768409,42.37908377478799,0 -71.67756134204257,42.36522875882206,0 -71.67617034958134,42.36494075938915,0 -71.67048538231423,42.36410375902369,0 -71.66930738840597,42.36392875897504,0 -71.65437147180533,42.36160075962839,0 -71.64656651362385,42.36045475905595,0 -71.64415852566904,42.36006975956565,0 -71.64399852705408,42.36004375916907,0 -71.64396452657293,42.36003875926904,0 -71.6438412282766,42.35998305929367,0 -71.64377167471426,42.35995164097624,0 -71.64078732381486,42.35949708436976,0 -71.63902255321185,42.35931085938847,0 -71.63890755377649,42.35929875904304,0 -71.63841994403195,42.35913650075635,0 -71.63816311591006,42.35909738273482,0 -71.63718656215934,42.35905275905706,0 -71.63609689520317,42.35878266889196,0 -71.63391788818741,42.35845077745174,0 -71.63356270710845,42.35815453387813,0 -71.63320858376035,42.35806675858827,0 -71.63267458835668,42.35748175816838,0 -71.63066260158877,42.35581975703842,0 -71.63031760393372,42.35549575679498,0 -71.63026279838626,42.35540219963114,0 -71.6245074855799,42.35060190195735,0 -71.60990272970228,42.35757217505993,0 -71.60987559508205,42.35761326184307,0 -71.60985340901333,42.35764370258713,0 -71.6032222581923,42.36736031796855,0 -71.60331321440209,42.36741867512441,0 -71.60396800996874,42.36780257474548,0 -71.60424760851996,42.36796857501957,0 -71.60515360269226,42.36850097564013,0 -71.60546360153218,42.36868157554908,0 -71.60577399876033,42.36886557639843,0 -71.60591249904449,42.36894807640275,0 -71.60605819741886,42.36898467616651,0 -71.60631409618775,42.36918407641446,0 -71.60637509598951,42.3692201760521,0 -71.6067776927361,42.36945437655611,0 -71.6074103899898,42.3698258765373,0 -71.60776048724077,42.37003067722547,0 -71.60760920708268,42.37012272364031,0 -71.6077694314917,42.37022238555321,0 -71.60242550524959,42.37330658545346,0 -71.59885552816805,42.37550148503055,0 -71.59822453060218,42.37589858535139,0 -71.59382375218601,42.37854478970617,0 -71.58983067338251,42.38102549305393,0 -71.5896997744303,42.38110679365926,0 -71.58830178130854,42.38197279500714,0 -71.5882297812191,42.38206879519189,0 -71.58815978156912,42.38218879511122,0 -71.58806978297092,42.38230879499105,0 -71.58805978229925,42.38233879528605,0 -71.58792978362027,42.38221879541781,0 -71.58539179686295,42.38375479781286,0 -71.58499979954515,42.38401579843801,0 -71.58323180868293,42.38513879984191,0 -71.58104382147654,42.38657210201316,0 -71.58072182332931,42.3866758021981,0 -71.58061982428374,42.38671880235006,0 -71.58051982442865,42.38676880243776,0 -71.5803398249288,42.38687880212655,0 -71.58025992311814,42.38693167962832,0 -71.59257612554146,42.39247463037771,0 -71.59340964262508,42.39282520697135,0 -71.59435113573822,42.39322120677949,0 -71.59526463051424,42.39362740771892,0 -71.59543472901719,42.39371410701116,0 -71.59552842898764,42.39375220709692,0 -71.59575652650884,42.39383100737454,0 -71.59592199077271,42.39398044975579,0 -71.60416487158879,42.39769018908036,0 -71.60492769379106,42.3980329594553,0 -71.60601365646076,42.39812081010805,0 -71.60605865708834,42.39823081059672,0 -71.60608165619289,42.39830181089396,0 -71.60610965649372,42.39836081046035,0 -71.60612065563528,42.39841981039378,0 -71.60614765538175,42.39850281030104,0 -71.60618965510226,42.39854481061501,0 -71.60624565535126,42.39856981077167,0 -71.60631265389266,42.39859681104628,0 -71.60631665406162,42.39861581117444,0 -71.6063442582943,42.39866948594187,0 -71.62447449831714,42.40681622329885,0 -71.62868998246925,42.4087200953697,0 -71.63036647524289,42.40875981731163,0 -71.63118946964812,42.4087788168515,0 -71.6312264697,42.40879281707338,0 -71.63136846754829,42.40885581708483,0 -71.63137946837829,42.40885781663018,0 -71.63142246734466,42.40887881673738,0 -71.63311755426288,42.40953861707327,0 -71.63937940436946,42.41197581856056,0 -71.64893322905255,42.41466411908525,0 -71.65389328893345,42.41605981924224,0 -71.6571962625297,42.41707682007537,0 -71.6606332342196,42.41810181979012,0 -71.66170124122637,42.41407981529794,0 -71.66241824457345,42.41166481272823,0 -71.6628972479829,42.4099408102525,0 -71.66279025310598,42.40863980887054,0 -71.66189686995793,42.40597350620072,0 -71.66177027212625,42.40559580645545,0 -71.66453925444046,42.40536480493773,0 -71.66456055476233,42.40529690487642,0 -71.66649926516899,42.39912279745862,0 -71.66657466679331,42.39871849767643,0 -71.66658826623919,42.39864579721912,0 -71.66804927417645,42.39448479243514,0 -71.66958626333839,42.39474179278911,0 -71.67632521543048,42.39599779265217,0 -71.67671921852339,42.39466879121547,0 -71.67776022698169,42.39115678691567,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_110006">
+      <name>01510</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>01510</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Zip Code</td>
+<td>01510</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>TOWN_ID</td>
+<td>28</td>
+</tr>
+<tr>
+<td>TOWN</td>
+<td>BERLIN</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>COUNTY</td>
+<td>WORCESTER</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle70</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.6606332342196,42.41810181979012,0 -71.66059427458059,42.41827240918652,0 -71.66065412672816,42.41828980977378,0 -71.66807761434036,42.39457283826138,0 -71.67656404269479,42.3961136399839,0 -71.6787637771204,42.38926452312438,0 -71.67852723126522,42.38922978418878,0 -71.67776022698169,42.39115678691567,0 -71.67671921852339,42.39466879121547,0 -71.67632521543048,42.39599779265217,0 -71.66958626333839,42.39474179278911,0 -71.66804927417645,42.39448479243514,0 -71.66658826623919,42.39864579721912,0 -71.66657466679331,42.39871849767643,0 -71.66649926516899,42.39912279745862,0 -71.66456055476233,42.40529690487642,0 -71.66453925444046,42.40536480493773,0 -71.66177027212625,42.40559580645545,0 -71.66189686995793,42.40597350620072,0 -71.66279025310598,42.40863980887054,0 -71.6628972479829,42.4099408102525,0 -71.66241824457345,42.41166481272823,0 -71.66170124122637,42.41407981529794,0 -71.6606332342196,42.41810181979012,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+  </Folder>
+  <Folder id="FeatureLayer12">
+    <name>Block Group Boundaries</name>
+    <Snippet></Snippet>
+    <description><![CDATA[Block group boundaries are taken from the 2010-2020 US Census geographic file system.]]></description>
+    <Placemark id="ID_120000">
+      <name>15000US250277171001</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>15000US250277171001</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>GEOID_Data</td>
+<td>15000US250277171001</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>TOWN_ID</td>
+<td>28</td>
+</tr>
+<tr>
+<td>TOWN</td>
+<td>BERLIN</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>COUNTY</td>
+<td>WORCESTER</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle120</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.66057479133745,42.41821866426808,0 -71.66063379124465,42.41824066462299,0 -71.66354879181823,42.4089726625348,0 -71.66372979200845,42.40838566325208,0 -71.66385479177961,42.40799166312365,0 -71.66441579189304,42.40620466196548,0 -71.66470779204667,42.40527466193212,0 -71.66660379273874,42.39924166034241,0 -71.66672879331789,42.39883766046522,0 -71.66661379152188,42.39875766049281,0 -71.66636679159068,42.39846766116238,0 -71.66613579205564,42.39811166083413,0 -71.66587379189551,42.39763066047716,0 -71.66572979231403,42.39719866067413,0 -71.66564279122662,42.39665266083056,0 -71.66549879210686,42.395146660443,0 -71.66542779208741,42.39416266063569,0 -71.66534979120169,42.39344566016132,0 -71.66524979104051,42.39265666023815,0 -71.6651427911727,42.39136665976412,0 -71.66508579187429,42.39074365940669,0 -71.66496279068507,42.39030965895022,0 -71.66483279201198,42.38994965916167,0 -71.66459679181966,42.3895286597696,0 -71.66445079057786,42.38933266010453,0 -71.66399779157366,42.38882665849266,0 -71.6638637899098,42.38879365900215,0 -71.66370279141088,42.38873165852453,0 -71.66336879077815,42.38862465940976,0 -71.66320379099763,42.388566659331,0 -71.6629587908821,42.38848965952574,0 -71.66286978965194,42.38845965876704,0 -71.66271279020243,42.38839265922051,0 -71.662549790317,42.38833265946622,0 -71.66223379045243,42.38819865940356,0 -71.66192879056345,42.38805165923451,0 -71.66176579000211,42.3879926585728,0 -71.66145378957364,42.38785365871795,0 -71.66130079030393,42.38778065940026,0 -71.66113378996666,42.3877256588662,0 -71.66097978970799,42.3876546591314,0 -71.6606587901709,42.38752665935446,0 -71.6605027898913,42.3874586596858,0 -71.66042878951024,42.38742965882034,0 -71.6602177886725,42.38746665882008,0 -71.65972878991929,42.38737665947509,0 -71.65919778909618,42.38733765910224,0 -71.6542347870485,42.38692865977268,0 -71.65069078653312,42.38663965947203,0 -71.6497957866823,42.38657765953698,0 -71.64657378474243,42.38632065949768,0 -71.6452737852125,42.38624865953395,0 -71.64448978402625,42.3861936596164,0 -71.64337778419446,42.38611465982998,0 -71.64187578410534,42.38600265957512,0 -71.64115578347436,42.38604865971406,0 -71.64033278246617,42.38616565961667,0 -71.63966778264948,42.38622265941518,0 -71.63773078319285,42.38633065876043,0 -71.63500678132695,42.38648266037807,0 -71.63456678186611,42.38648366018246,0 -71.63262378041776,42.38655766001831,0 -71.63234078082191,42.38655966039192,0 -71.63121378005464,42.38656965953793,0 -71.63014978007719,42.38666766010609,0 -71.6294577795007,42.38680065954769,0 -71.62875377934475,42.38704066040255,0 -71.6280367793145,42.38744965999798,0 -71.62714177862608,42.38810765964781,0 -71.62595977805503,42.38912166030778,0 -71.62519577825441,42.38970866032729,0 -71.62447977812929,42.39014366055487,0 -71.62375077695432,42.39053466130581,0 -71.62311877741792,42.39079266163939,0 -71.62253377715945,42.39096166056876,0 -71.62117277802359,42.39127366093321,0 -71.61960677689201,42.39162666150503,0 -71.61829377633401,42.39197866157816,0 -71.61493377518357,42.3929026612221,0 -71.61387977511294,42.39297966246184,0 -71.61142677428799,42.39354266179898,0 -71.60981677330636,42.39391766141644,0 -71.6092727729457,42.39411566210317,0 -71.60870777392536,42.39437766238241,0 -71.60817477342056,42.39468766200292,0 -71.60736677270177,42.39536166189977,0 -71.60672877222611,42.39598866181683,0 -71.60619077288386,42.39640966293778,0 -71.60561577176478,42.39690466266941,0 -71.60515677226995,42.3973466634726,0 -71.6049007721483,42.39760066291782,0 -71.60461277255249,42.39776766254482,0 -71.60448994087379,42.39783625688038,0 -71.60445877208557,42.39785366311443,0 -71.60452977259951,42.39788366320215,0 -71.60492771810151,42.39803297023639,0 -71.60517477280425,42.39812566349993,0 -71.60714990195257,42.39903149836006,0 -71.60720477367234,42.39905666294794,0 -71.60741477251052,42.39915466329057,0 -71.60755477323264,42.39922066373798,0 -71.60769577341249,42.39928566287784,0 -71.60792620822986,42.39938032835881,0 -71.60806577368798,42.39943766258156,0 -71.60864777321228,42.39970066350526,0 -71.60924577341946,42.39997066299697,0 -71.60987477397686,42.40025566249773,0 -71.6099849616886,42.40030541964254,0 -71.61048377407093,42.40053066313777,0 -71.61112177415977,42.40081966326338,0 -71.61182477514443,42.4011366626341,0 -71.61308477438836,42.40170666302792,0 -71.61451977589375,42.40235566335254,0 -71.61667077586422,42.40332866399164,0 -71.61764277689056,42.40376766358628,0 -71.61885077751695,42.40431466354692,0 -71.61956977745287,42.40464166392021,0 -71.61978577806032,42.40473366387057,0 -71.61999077672083,42.40482666338173,0 -71.62059777764848,42.40510466429285,0 -71.62119577784276,42.40536566356914,0 -71.62178977825481,42.40564766365512,0 -71.62253277807415,42.40598066355852,0 -71.62291077830541,42.40615066356452,0 -71.62480277933686,42.40700566353751,0 -71.62653678019156,42.40779066431101,0 -71.628055781244,42.40847966468463,0 -71.62817178110738,42.4085286641639,0 -71.63002278096049,42.40936566418258,0 -71.63041878068768,42.40954566430685,0 -71.63095078146687,42.40969866418605,0 -71.63231878158086,42.41009166419266,0 -71.6330447817197,42.4103006638036,0 -71.63476178301107,42.41079466411371,0 -71.63527778304308,42.41094366371034,0 -71.63703278276608,42.41144866415213,0 -71.63928678462108,42.41210266421531,0 -71.64150378493984,42.41273566412101,0 -71.64380778550198,42.41339866531856,0 -71.64548178574303,42.41387966472783,0 -71.64583560365232,42.4139817143647,0 -71.64600878617625,42.41403166498026,0 -71.64809878768841,42.41463366471117,0 -71.64927478791663,42.41496966436144,0 -71.65153078856737,42.41562066521789,0 -71.65351478922811,42.41619166476521,0 -71.65421978913473,42.41639466464032,0 -71.65511879006748,42.41665366478526,0 -71.65745279047648,42.41732966535108,0 -71.66057479133745,42.41821866426808,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_120001">
+      <name>15000US250277171002</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>15000US250277171002</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>GEOID_Data</td>
+<td>15000US250277171002</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>TOWN_ID</td>
+<td>28</td>
+</tr>
+<tr>
+<td>TOWN</td>
+<td>BERLIN</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>COUNTY</td>
+<td>WORCESTER</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle120</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.60445877208557,42.39785366311443,0 -71.60448994087379,42.39783625688038,0 -71.60461277255249,42.39776766254482,0 -71.6049007721483,42.39760066291782,0 -71.60515677226995,42.3973466634726,0 -71.60561577176478,42.39690466266941,0 -71.60619077288386,42.39640966293778,0 -71.60672877222611,42.39598866181683,0 -71.60736677270177,42.39536166189977,0 -71.60817477342056,42.39468766200292,0 -71.60870777392536,42.39437766238241,0 -71.6092727729457,42.39411566210317,0 -71.60981677330636,42.39391766141644,0 -71.61142677428799,42.39354266179898,0 -71.61387977511294,42.39297966246184,0 -71.61493377518357,42.3929026612221,0 -71.61829377633401,42.39197866157816,0 -71.61960677689201,42.39162666150503,0 -71.62117277802359,42.39127366093321,0 -71.62253377715945,42.39096166056876,0 -71.62311877741792,42.39079266163939,0 -71.62375077695432,42.39053466130581,0 -71.62447977812929,42.39014366055487,0 -71.62519577825441,42.38970866032729,0 -71.62595977805503,42.38912166030778,0 -71.62714177862608,42.38810765964781,0 -71.6280367793145,42.38744965999798,0 -71.62875377934475,42.38704066040255,0 -71.6294577795007,42.38680065954769,0 -71.63014978007719,42.38666766010609,0 -71.63121378005464,42.38656965953793,0 -71.63234078082191,42.38655966039192,0 -71.63262378041776,42.38655766001831,0 -71.63456678186611,42.38648366018246,0 -71.63500678132695,42.38648266037807,0 -71.63773078319285,42.38633065876043,0 -71.63966778264948,42.38622265941518,0 -71.64033278246617,42.38616565961667,0 -71.64115578347436,42.38604865971406,0 -71.64187578410534,42.38600265957512,0 -71.64337778419446,42.38611465982998,0 -71.64448978402625,42.3861936596164,0 -71.6452737852125,42.38624865953395,0 -71.64657378474243,42.38632065949768,0 -71.6497957866823,42.38657765953698,0 -71.65069078653312,42.38663965947203,0 -71.6542347870485,42.38692865977268,0 -71.65919778909618,42.38733765910224,0 -71.65972878991929,42.38737665947509,0 -71.6602177886725,42.38746665882008,0 -71.66042878951024,42.38742965882034,0 -71.6605027898913,42.3874586596858,0 -71.6606587901709,42.38752665935446,0 -71.66097978970799,42.3876546591314,0 -71.66113378996666,42.3877256588662,0 -71.66130079030393,42.38778065940026,0 -71.66145378957364,42.38785365871795,0 -71.66176579000211,42.3879926585728,0 -71.66192879056345,42.38805165923451,0 -71.66223379045243,42.38819865940356,0 -71.662549790317,42.38833265946622,0 -71.66271279020243,42.38839265922051,0 -71.66286978965194,42.38845965876704,0 -71.6629587908821,42.38848965952574,0 -71.66320379099763,42.388566659331,0 -71.66336879077815,42.38862465940976,0 -71.66370279141088,42.38873165852453,0 -71.6638637899098,42.38879365900215,0 -71.66399779157366,42.38882665849266,0 -71.66445079057786,42.38933266010453,0 -71.66459679181966,42.3895286597696,0 -71.66483279201198,42.38994965916167,0 -71.66496279068507,42.39030965895022,0 -71.66508579187429,42.39074365940669,0 -71.6651427911727,42.39136665976412,0 -71.66524979104051,42.39265666023815,0 -71.66534979120169,42.39344566016132,0 -71.66542779208741,42.39416266063569,0 -71.66549879210686,42.395146660443,0 -71.66564279122662,42.39665266083056,0 -71.66572979231403,42.39719866067413,0 -71.66587379189551,42.39763066047716,0 -71.66613579205564,42.39811166083413,0 -71.66636679159068,42.39846766116238,0 -71.66661379152188,42.39875766049281,0 -71.66672879331789,42.39883766046522,0 -71.66693679245836,42.39817766106305,0 -71.66761179213656,42.39602665989401,0 -71.66805479355794,42.3946206598861,0 -71.66806225910626,42.39462189586098,0 -71.6695897933962,42.39487465978407,0 -71.67632279568217,42.39611266038062,0 -71.67651579578465,42.39614765969186,0 -71.67652872395057,42.39610722840998,0 -71.6770017951481,42.39462766005316,0 -71.67767579530423,42.39254365951724,0 -71.67813279558037,42.39113065916486,0 -71.67825679489243,42.39074965931929,0 -71.67872079626328,42.38931265914405,0 -71.67876679603042,42.38917165873016,0 -71.67696679568843,42.38862465896649,0 -71.67615079491239,42.38837665931681,0 -71.67369579373786,42.38762965897666,0 -71.67136479368941,42.38692165826684,0 -71.67055179284077,42.38667365852313,0 -71.67093779326744,42.38553065846862,0 -71.67159479351777,42.38361765796062,0 -71.67220179319322,42.3817776580927,0 -71.67229379296649,42.38150165782751,0 -71.67231879279322,42.38142665801369,0 -71.67240379308194,42.38117365756699,0 -71.67248079368189,42.38094765750925,0 -71.67298179319951,42.37946165760948,0 -71.67308879307993,42.37914165729568,0 -71.67334979383803,42.3783636568142,0 -71.67362579314366,42.37754565706916,0 -71.67402479284199,42.37635965695138,0 -71.67426679326442,42.37564265657086,0 -71.67554579272023,42.37184265524034,0 -71.67557879372443,42.37174465553311,0 -71.67778240618958,42.36519944634498,0 -71.67779479358126,42.36516265438728,0 -71.67637859150645,42.36489458180656,0 -71.67618879328289,42.36485865446911,0 -71.67307379261933,42.36437765452448,0 -71.67047379186748,42.36397965468171,0 -71.66704979090723,42.36345765429276,0 -71.66324178927123,42.36287665400759,0 -71.65970678849882,42.36233765469488,0 -71.65600578640797,42.36177265493287,0 -71.6553387874245,42.36167465483806,0 -71.65435578666937,42.36152365462895,0 -71.65242178478822,42.36122565496816,0 -71.65192878522933,42.36113965447165,0 -71.64949478456791,42.36077865486092,0 -71.64789078411759,42.36054365441443,0 -71.64639357857678,42.36035099161212,0 -71.64632878424234,42.3603426546554,0 -71.64602121418049,42.36029427652806,0 -71.64414178302795,42.35999865485326,0 -71.64406878342307,42.35998765397667,0 -71.6438917824876,42.35995865429052,0 -71.64316378270475,42.35984265430821,0 -71.64221278269295,42.35969465426143,0 -71.64189278182236,42.35964265413836,0 -71.64019678081016,42.35937565492517,0 -71.64057978058294,42.35941665518027,0 -71.63978278140554,42.35929565494649,0 -71.63875278055015,42.35914065508877,0 -71.63863878092063,42.35912265463514,0 -71.63709577967099,42.35888965468931,0 -71.63624777998265,42.3587586544264,0 -71.63403878000949,42.35842065459392,0 -71.63369077910473,42.35808965494076,0 -71.63248677839445,42.35715665398926,0 -71.63031677793583,42.35529865394168,0 -71.63022377695508,42.35521765393063,0 -71.63000877761688,42.35503065326694,0 -71.62842677706396,42.35365165346705,0 -71.62638477570231,42.3518806533506,0 -71.62476277548706,42.35050565346734,0 -71.6247487757574,42.35051265303842,0 -71.62470277562041,42.35047365323285,0 -71.62465579254869,42.35049569624663,0 -71.62432977550013,42.35064865318577,0 -71.62429277553744,42.35066665289592,0 -71.62393677531557,42.35083565351987,0 -71.62359577542729,42.35099565300555,0 -71.62356477590976,42.35101065349539,0 -71.62155177476036,42.3519616537952,0 -71.61973777435303,42.35281765430515,0 -71.61736677332671,42.35393765481794,0 -71.61675577338768,42.35422665463139,0 -71.61598277339493,42.35459065408366,0 -71.61245477242967,42.35625665512519,0 -71.61000777132817,42.35741165469214,0 -71.60989021514618,42.35758977128123,0 -71.6098757719403,42.35761165467492,0 -71.6098679927195,42.35762233312183,0 -71.60958877224805,42.35800565500752,0 -71.60832877090411,42.35979765571046,0 -71.60776677035274,42.36059465523138,0 -71.60745577037707,42.36103865502642,0 -71.60724477036976,42.361336656134,0 -71.60711177084319,42.3615266551891,0 -71.60699977001973,42.36168565595399,0 -71.60675577115688,42.3620326556739,0 -71.60656077090125,42.36230865579675,0 -71.60638077001224,42.36256465641264,0 -71.60634176983412,42.36261965628902,0 -71.60583877076218,42.36333665644767,0 -71.60545277046194,42.36388265713814,0 -71.60534876976243,42.36403065647014,0 -71.60525477028675,42.36416465622625,0 -71.60440476998376,42.36537265623016,0 -71.60306576938756,42.36727565755194,0 -71.60318777051997,42.36733765651665,0 -71.60322249073158,42.36735997745493,0 -71.60331376918684,42.36741865662053,0 -71.60579677100513,42.36887865719076,0 -71.60592677049164,42.36895465689175,0 -71.60634577051292,42.3692016574575,0 -71.60649377026599,42.36928865746253,0 -71.60692777069957,42.36954265696459,0 -71.60775977089504,42.37003065719017,0 -71.60760947081842,42.37012288724399,0 -71.60745177084883,42.37021965780733,0 -71.60646677092227,42.37081865745575,0 -71.60550877079282,42.37141665781146,0 -71.60246529581271,42.3732836208772,0 -71.59885276909722,42.37549965894127,0 -71.59822176798738,42.37588665905603,0 -71.59796376858604,42.37604565889486,0 -71.59387276724753,42.37855665946068,0 -71.59109576671067,42.38026166038064,0 -71.59019976659835,42.3808126593163,0 -71.58961176667968,42.38117266061526,0 -71.5883037658606,42.38197566085798,0 -71.58794076586791,42.3821986604898,0 -71.58501876459994,42.38399266088808,0 -71.58320176500409,42.38510466068655,0 -71.58250607346243,42.38553310767335,0 -71.58190276389331,42.38590466121285,0 -71.58004376404654,42.3869576617556,0 -71.58015076363677,42.38700666206348,0 -71.58510876486992,42.38920266210632,0 -71.58581676543292,42.38951666184891,0 -71.59055876615923,42.39162766246254,0 -71.60126537449843,42.39638525894499,0 -71.6025377716412,42.39695066314789,0 -71.60363477220575,42.39743766264444,0 -71.60425177165853,42.39771166288197,0 -71.6042585358573,42.39773227656793,0 -71.60427277230886,42.39777566304763,0 -71.60445877208557,42.39785366311443,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+  <Folder id="FeatureLayer13">
+    <name>MA 2020 State EJC Layer</name>
+    <Snippet></Snippet>
+    <description><![CDATA[The 2020 EJC layer uses the state definitions and data downloaded from https://www.mass.gov/info-details/environmental-justice-populations-in-massachusetts.  
+<br></br>
+More granular historical EJC status for each city and block group for the time series 2013-current ACS vintage, as well as participation, demographic, and savings data can be obtained through the online data dashboard accessed at https://www.masssavedata.com/Public/CustomerProfileDashboard.  After login follow the path: <b>Residential Electric -> Socioeconomic Analysis -> Summary Table</b>
+]]></description>
+  </Folder>
+  </Folder>
+  <Folder id="GroupLayer14">
+    <name>Program Administrator Summary Data</name>
+    <Snippet></Snippet>
+    <description><![CDATA[Program administrator summary data on location participation rates is presented for the most recently completed full term year, as well as the most recent current term year.  Additional, unique location participation rates for the full time series of data in the underlying database are also included.  To further facilitate data consumers, a snapshot of the most recent number of unique locations and accounts is presented for each analysis grain (block group or zip code) in the sub-layers.
+<br></br>
+Data consumers interested in longer time horizons and more complex drill downs should consult the PAs’ online interactive dashboard.  This tool requires a free registration prior to access, and can be found at https://www.masssavedata.com/Public/CustomerProfileDashboard 
+]]></description>
+  <Folder id="FeatureLayer15">
+    <name>Electric Program Participation and Population Overview</name>
+    <Snippet></Snippet>
+    <description><![CDATA[The participation runs from dark to light by ranking the block groups into decile bins or quintile bins as is appropriate for the town.  Darker areas have lower participation than lighter areas and are more pronounced on the map interface.
+<br></br>
+The data for the layer is collected from the program administrators annual billing and tracking data and aggregated to protect individual customer confidentiality.
+]]></description>
+    <Placemark id="ID_150000">
+      <name>15000US250277171001</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>15000US250277171001</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Block Group ID (Text)</td>
+<td>15000US250277171001</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Town</td>
+<td>BERLIN</td>
+</tr>
+<tr>
+<td>County</td>
+<td>WORCESTER</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Active electric locations, 2020</td>
+<td>278</td>
+</tr>
+<tr>
+<td>Active electric accounts as of December, 2020</td>
+<td>305</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Electric location participation rate in 2017</td>
+<td>10.74</td>
+</tr>
+<tr>
+<td>Electric location participation rate in 2018</td>
+<td>10.74</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Electric location participation rate in 2019</td>
+<td>12.13</td>
+</tr>
+<tr>
+<td>Unique electric location participation rate 2013 - 2019</td>
+<td>44.85</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Total 2013-2019 unique electric location participation rate ranking</td>
+<td>Ranked number 1 out of 2 block groups for location participation</td>
+</tr>
+<tr>
+<td>Final decile for 13-19 electric participation</td>
+<td>5</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dashboard Link</td>
+<td><a target="_blank" href="https://www.masssavedata.com/Public/CustomerProfileDashboard">https://www.masssavedata.com/Public/CustomerProfileDashboard</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle150</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.66057479133745,42.41821866426808,0 -71.66063379124465,42.41824066462299,0 -71.66354879181823,42.4089726625348,0 -71.66372979200845,42.40838566325208,0 -71.66385479177961,42.40799166312365,0 -71.66441579189304,42.40620466196548,0 -71.66470779204667,42.40527466193212,0 -71.66660379273874,42.39924166034241,0 -71.66672879331789,42.39883766046522,0 -71.66661379152188,42.39875766049281,0 -71.66636679159068,42.39846766116238,0 -71.66613579205564,42.39811166083413,0 -71.66587379189551,42.39763066047716,0 -71.66572979231403,42.39719866067413,0 -71.66564279122662,42.39665266083056,0 -71.66549879210686,42.395146660443,0 -71.66542779208741,42.39416266063569,0 -71.66534979120169,42.39344566016132,0 -71.66524979104051,42.39265666023815,0 -71.6651427911727,42.39136665976412,0 -71.66508579187429,42.39074365940669,0 -71.66496279068507,42.39030965895022,0 -71.66483279201198,42.38994965916167,0 -71.66459679181966,42.3895286597696,0 -71.66445079057786,42.38933266010453,0 -71.66399779157366,42.38882665849266,0 -71.6638637899098,42.38879365900215,0 -71.66370279141088,42.38873165852453,0 -71.66336879077815,42.38862465940976,0 -71.66320379099763,42.388566659331,0 -71.6629587908821,42.38848965952574,0 -71.66286978965194,42.38845965876704,0 -71.66271279020243,42.38839265922051,0 -71.662549790317,42.38833265946622,0 -71.66223379045243,42.38819865940356,0 -71.66192879056345,42.38805165923451,0 -71.66176579000211,42.3879926585728,0 -71.66145378957364,42.38785365871795,0 -71.66130079030393,42.38778065940026,0 -71.66113378996666,42.3877256588662,0 -71.66097978970799,42.3876546591314,0 -71.6606587901709,42.38752665935446,0 -71.6605027898913,42.3874586596858,0 -71.66042878951024,42.38742965882034,0 -71.6602177886725,42.38746665882008,0 -71.65972878991929,42.38737665947509,0 -71.65919778909618,42.38733765910224,0 -71.6542347870485,42.38692865977268,0 -71.65069078653312,42.38663965947203,0 -71.6497957866823,42.38657765953698,0 -71.64657378474243,42.38632065949768,0 -71.6452737852125,42.38624865953395,0 -71.64448978402625,42.3861936596164,0 -71.64337778419446,42.38611465982998,0 -71.64187578410534,42.38600265957512,0 -71.64115578347436,42.38604865971406,0 -71.64033278246617,42.38616565961667,0 -71.63966778264948,42.38622265941518,0 -71.63773078319285,42.38633065876043,0 -71.63500678132695,42.38648266037807,0 -71.63456678186611,42.38648366018246,0 -71.63262378041776,42.38655766001831,0 -71.63234078082191,42.38655966039192,0 -71.63121378005464,42.38656965953793,0 -71.63014978007719,42.38666766010609,0 -71.6294577795007,42.38680065954769,0 -71.62875377934475,42.38704066040255,0 -71.6280367793145,42.38744965999798,0 -71.62714177862608,42.38810765964781,0 -71.62595977805503,42.38912166030778,0 -71.62519577825441,42.38970866032729,0 -71.62447977812929,42.39014366055487,0 -71.62375077695432,42.39053466130581,0 -71.62311877741792,42.39079266163939,0 -71.62253377715945,42.39096166056876,0 -71.62117277802359,42.39127366093321,0 -71.61960677689201,42.39162666150503,0 -71.61829377633401,42.39197866157816,0 -71.61493377518357,42.3929026612221,0 -71.61387977511294,42.39297966246184,0 -71.61142677428799,42.39354266179898,0 -71.60981677330636,42.39391766141644,0 -71.6092727729457,42.39411566210317,0 -71.60870777392536,42.39437766238241,0 -71.60817477342056,42.39468766200292,0 -71.60736677270177,42.39536166189977,0 -71.60672877222611,42.39598866181683,0 -71.60619077288386,42.39640966293778,0 -71.60561577176478,42.39690466266941,0 -71.60515677226995,42.3973466634726,0 -71.6049007721483,42.39760066291782,0 -71.60461277255249,42.39776766254482,0 -71.60448994087379,42.39783625688038,0 -71.60445877208557,42.39785366311443,0 -71.60452977259951,42.39788366320215,0 -71.60492771810151,42.39803297023639,0 -71.60517477280425,42.39812566349993,0 -71.60714990195257,42.39903149836006,0 -71.60720477367234,42.39905666294794,0 -71.60741477251052,42.39915466329057,0 -71.60755477323264,42.39922066373798,0 -71.60769577341249,42.39928566287784,0 -71.60792620822986,42.39938032835881,0 -71.60806577368798,42.39943766258156,0 -71.60864777321228,42.39970066350526,0 -71.60924577341946,42.39997066299697,0 -71.60987477397686,42.40025566249773,0 -71.6099849616886,42.40030541964254,0 -71.61048377407093,42.40053066313777,0 -71.61112177415977,42.40081966326338,0 -71.61182477514443,42.4011366626341,0 -71.61308477438836,42.40170666302792,0 -71.61451977589375,42.40235566335254,0 -71.61667077586422,42.40332866399164,0 -71.61764277689056,42.40376766358628,0 -71.61885077751695,42.40431466354692,0 -71.61956977745287,42.40464166392021,0 -71.61978577806032,42.40473366387057,0 -71.61999077672083,42.40482666338173,0 -71.62059777764848,42.40510466429285,0 -71.62119577784276,42.40536566356914,0 -71.62178977825481,42.40564766365512,0 -71.62253277807415,42.40598066355852,0 -71.62291077830541,42.40615066356452,0 -71.62480277933686,42.40700566353751,0 -71.62653678019156,42.40779066431101,0 -71.628055781244,42.40847966468463,0 -71.62817178110738,42.4085286641639,0 -71.63002278096049,42.40936566418258,0 -71.63041878068768,42.40954566430685,0 -71.63095078146687,42.40969866418605,0 -71.63231878158086,42.41009166419266,0 -71.6330447817197,42.4103006638036,0 -71.63476178301107,42.41079466411371,0 -71.63527778304308,42.41094366371034,0 -71.63703278276608,42.41144866415213,0 -71.63928678462108,42.41210266421531,0 -71.64150378493984,42.41273566412101,0 -71.64380778550198,42.41339866531856,0 -71.64548178574303,42.41387966472783,0 -71.64583560365232,42.4139817143647,0 -71.64600878617625,42.41403166498026,0 -71.64809878768841,42.41463366471117,0 -71.64927478791663,42.41496966436144,0 -71.65153078856737,42.41562066521789,0 -71.65351478922811,42.41619166476521,0 -71.65421978913473,42.41639466464032,0 -71.65511879006748,42.41665366478526,0 -71.65745279047648,42.41732966535108,0 -71.66057479133745,42.41821866426808,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_150001">
+      <name>15000US250277171002</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>15000US250277171002</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Block Group ID (Text)</td>
+<td>15000US250277171002</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Town</td>
+<td>BERLIN</td>
+</tr>
+<tr>
+<td>County</td>
+<td>WORCESTER</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Active electric locations, 2020</td>
+<td>757</td>
+</tr>
+<tr>
+<td>Active electric accounts as of December, 2020</td>
+<td>867</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Electric location participation rate in 2017</td>
+<td>10.43</td>
+</tr>
+<tr>
+<td>Electric location participation rate in 2018</td>
+<td>13.07</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Electric location participation rate in 2019</td>
+<td>11.19</td>
+</tr>
+<tr>
+<td>Unique electric location participation rate 2013 - 2019</td>
+<td>34.88</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Total 2013-2019 unique electric location participation rate ranking</td>
+<td>Ranked number 2 out of 2 block groups for location participation</td>
+</tr>
+<tr>
+<td>Final decile for 13-19 electric participation</td>
+<td>10</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dashboard Link</td>
+<td><a target="_blank" href="https://www.masssavedata.com/Public/CustomerProfileDashboard">https://www.masssavedata.com/Public/CustomerProfileDashboard</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle151</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.60445877208557,42.39785366311443,0 -71.60448994087379,42.39783625688038,0 -71.60461277255249,42.39776766254482,0 -71.6049007721483,42.39760066291782,0 -71.60515677226995,42.3973466634726,0 -71.60561577176478,42.39690466266941,0 -71.60619077288386,42.39640966293778,0 -71.60672877222611,42.39598866181683,0 -71.60736677270177,42.39536166189977,0 -71.60817477342056,42.39468766200292,0 -71.60870777392536,42.39437766238241,0 -71.6092727729457,42.39411566210317,0 -71.60981677330636,42.39391766141644,0 -71.61142677428799,42.39354266179898,0 -71.61387977511294,42.39297966246184,0 -71.61493377518357,42.3929026612221,0 -71.61829377633401,42.39197866157816,0 -71.61960677689201,42.39162666150503,0 -71.62117277802359,42.39127366093321,0 -71.62253377715945,42.39096166056876,0 -71.62311877741792,42.39079266163939,0 -71.62375077695432,42.39053466130581,0 -71.62447977812929,42.39014366055487,0 -71.62519577825441,42.38970866032729,0 -71.62595977805503,42.38912166030778,0 -71.62714177862608,42.38810765964781,0 -71.6280367793145,42.38744965999798,0 -71.62875377934475,42.38704066040255,0 -71.6294577795007,42.38680065954769,0 -71.63014978007719,42.38666766010609,0 -71.63121378005464,42.38656965953793,0 -71.63234078082191,42.38655966039192,0 -71.63262378041776,42.38655766001831,0 -71.63456678186611,42.38648366018246,0 -71.63500678132695,42.38648266037807,0 -71.63773078319285,42.38633065876043,0 -71.63966778264948,42.38622265941518,0 -71.64033278246617,42.38616565961667,0 -71.64115578347436,42.38604865971406,0 -71.64187578410534,42.38600265957512,0 -71.64337778419446,42.38611465982998,0 -71.64448978402625,42.3861936596164,0 -71.6452737852125,42.38624865953395,0 -71.64657378474243,42.38632065949768,0 -71.6497957866823,42.38657765953698,0 -71.65069078653312,42.38663965947203,0 -71.6542347870485,42.38692865977268,0 -71.65919778909618,42.38733765910224,0 -71.65972878991929,42.38737665947509,0 -71.6602177886725,42.38746665882008,0 -71.66042878951024,42.38742965882034,0 -71.6605027898913,42.3874586596858,0 -71.6606587901709,42.38752665935446,0 -71.66097978970799,42.3876546591314,0 -71.66113378996666,42.3877256588662,0 -71.66130079030393,42.38778065940026,0 -71.66145378957364,42.38785365871795,0 -71.66176579000211,42.3879926585728,0 -71.66192879056345,42.38805165923451,0 -71.66223379045243,42.38819865940356,0 -71.662549790317,42.38833265946622,0 -71.66271279020243,42.38839265922051,0 -71.66286978965194,42.38845965876704,0 -71.6629587908821,42.38848965952574,0 -71.66320379099763,42.388566659331,0 -71.66336879077815,42.38862465940976,0 -71.66370279141088,42.38873165852453,0 -71.6638637899098,42.38879365900215,0 -71.66399779157366,42.38882665849266,0 -71.66445079057786,42.38933266010453,0 -71.66459679181966,42.3895286597696,0 -71.66483279201198,42.38994965916167,0 -71.66496279068507,42.39030965895022,0 -71.66508579187429,42.39074365940669,0 -71.6651427911727,42.39136665976412,0 -71.66524979104051,42.39265666023815,0 -71.66534979120169,42.39344566016132,0 -71.66542779208741,42.39416266063569,0 -71.66549879210686,42.395146660443,0 -71.66564279122662,42.39665266083056,0 -71.66572979231403,42.39719866067413,0 -71.66587379189551,42.39763066047716,0 -71.66613579205564,42.39811166083413,0 -71.66636679159068,42.39846766116238,0 -71.66661379152188,42.39875766049281,0 -71.66672879331789,42.39883766046522,0 -71.66693679245836,42.39817766106305,0 -71.66761179213656,42.39602665989401,0 -71.66805479355794,42.3946206598861,0 -71.66806225910626,42.39462189586098,0 -71.6695897933962,42.39487465978407,0 -71.67632279568217,42.39611266038062,0 -71.67651579578465,42.39614765969186,0 -71.67652872395057,42.39610722840998,0 -71.6770017951481,42.39462766005316,0 -71.67767579530423,42.39254365951724,0 -71.67813279558037,42.39113065916486,0 -71.67825679489243,42.39074965931929,0 -71.67872079626328,42.38931265914405,0 -71.67876679603042,42.38917165873016,0 -71.67696679568843,42.38862465896649,0 -71.67615079491239,42.38837665931681,0 -71.67369579373786,42.38762965897666,0 -71.67136479368941,42.38692165826684,0 -71.67055179284077,42.38667365852313,0 -71.67093779326744,42.38553065846862,0 -71.67159479351777,42.38361765796062,0 -71.67220179319322,42.3817776580927,0 -71.67229379296649,42.38150165782751,0 -71.67231879279322,42.38142665801369,0 -71.67240379308194,42.38117365756699,0 -71.67248079368189,42.38094765750925,0 -71.67298179319951,42.37946165760948,0 -71.67308879307993,42.37914165729568,0 -71.67334979383803,42.3783636568142,0 -71.67362579314366,42.37754565706916,0 -71.67402479284199,42.37635965695138,0 -71.67426679326442,42.37564265657086,0 -71.67554579272023,42.37184265524034,0 -71.67557879372443,42.37174465553311,0 -71.67778240618958,42.36519944634498,0 -71.67779479358126,42.36516265438728,0 -71.67637859150645,42.36489458180656,0 -71.67618879328289,42.36485865446911,0 -71.67307379261933,42.36437765452448,0 -71.67047379186748,42.36397965468171,0 -71.66704979090723,42.36345765429276,0 -71.66324178927123,42.36287665400759,0 -71.65970678849882,42.36233765469488,0 -71.65600578640797,42.36177265493287,0 -71.6553387874245,42.36167465483806,0 -71.65435578666937,42.36152365462895,0 -71.65242178478822,42.36122565496816,0 -71.65192878522933,42.36113965447165,0 -71.64949478456791,42.36077865486092,0 -71.64789078411759,42.36054365441443,0 -71.64639357857678,42.36035099161212,0 -71.64632878424234,42.3603426546554,0 -71.64602121418049,42.36029427652806,0 -71.64414178302795,42.35999865485326,0 -71.64406878342307,42.35998765397667,0 -71.6438917824876,42.35995865429052,0 -71.64316378270475,42.35984265430821,0 -71.64221278269295,42.35969465426143,0 -71.64189278182236,42.35964265413836,0 -71.64019678081016,42.35937565492517,0 -71.64057978058294,42.35941665518027,0 -71.63978278140554,42.35929565494649,0 -71.63875278055015,42.35914065508877,0 -71.63863878092063,42.35912265463514,0 -71.63709577967099,42.35888965468931,0 -71.63624777998265,42.3587586544264,0 -71.63403878000949,42.35842065459392,0 -71.63369077910473,42.35808965494076,0 -71.63248677839445,42.35715665398926,0 -71.63031677793583,42.35529865394168,0 -71.63022377695508,42.35521765393063,0 -71.63000877761688,42.35503065326694,0 -71.62842677706396,42.35365165346705,0 -71.62638477570231,42.3518806533506,0 -71.62476277548706,42.35050565346734,0 -71.6247487757574,42.35051265303842,0 -71.62470277562041,42.35047365323285,0 -71.62465579254869,42.35049569624663,0 -71.62432977550013,42.35064865318577,0 -71.62429277553744,42.35066665289592,0 -71.62393677531557,42.35083565351987,0 -71.62359577542729,42.35099565300555,0 -71.62356477590976,42.35101065349539,0 -71.62155177476036,42.3519616537952,0 -71.61973777435303,42.35281765430515,0 -71.61736677332671,42.35393765481794,0 -71.61675577338768,42.35422665463139,0 -71.61598277339493,42.35459065408366,0 -71.61245477242967,42.35625665512519,0 -71.61000777132817,42.35741165469214,0 -71.60989021514618,42.35758977128123,0 -71.6098757719403,42.35761165467492,0 -71.6098679927195,42.35762233312183,0 -71.60958877224805,42.35800565500752,0 -71.60832877090411,42.35979765571046,0 -71.60776677035274,42.36059465523138,0 -71.60745577037707,42.36103865502642,0 -71.60724477036976,42.361336656134,0 -71.60711177084319,42.3615266551891,0 -71.60699977001973,42.36168565595399,0 -71.60675577115688,42.3620326556739,0 -71.60656077090125,42.36230865579675,0 -71.60638077001224,42.36256465641264,0 -71.60634176983412,42.36261965628902,0 -71.60583877076218,42.36333665644767,0 -71.60545277046194,42.36388265713814,0 -71.60534876976243,42.36403065647014,0 -71.60525477028675,42.36416465622625,0 -71.60440476998376,42.36537265623016,0 -71.60306576938756,42.36727565755194,0 -71.60318777051997,42.36733765651665,0 -71.60322249073158,42.36735997745493,0 -71.60331376918684,42.36741865662053,0 -71.60579677100513,42.36887865719076,0 -71.60592677049164,42.36895465689175,0 -71.60634577051292,42.3692016574575,0 -71.60649377026599,42.36928865746253,0 -71.60692777069957,42.36954265696459,0 -71.60775977089504,42.37003065719017,0 -71.60760947081842,42.37012288724399,0 -71.60745177084883,42.37021965780733,0 -71.60646677092227,42.37081865745575,0 -71.60550877079282,42.37141665781146,0 -71.60246529581271,42.3732836208772,0 -71.59885276909722,42.37549965894127,0 -71.59822176798738,42.37588665905603,0 -71.59796376858604,42.37604565889486,0 -71.59387276724753,42.37855665946068,0 -71.59109576671067,42.38026166038064,0 -71.59019976659835,42.3808126593163,0 -71.58961176667968,42.38117266061526,0 -71.5883037658606,42.38197566085798,0 -71.58794076586791,42.3821986604898,0 -71.58501876459994,42.38399266088808,0 -71.58320176500409,42.38510466068655,0 -71.58250607346243,42.38553310767335,0 -71.58190276389331,42.38590466121285,0 -71.58004376404654,42.3869576617556,0 -71.58015076363677,42.38700666206348,0 -71.58510876486992,42.38920266210632,0 -71.58581676543292,42.38951666184891,0 -71.59055876615923,42.39162766246254,0 -71.60126537449843,42.39638525894499,0 -71.6025377716412,42.39695066314789,0 -71.60363477220575,42.39743766264444,0 -71.60425177165853,42.39771166288197,0 -71.6042585358573,42.39773227656793,0 -71.60427277230886,42.39777566304763,0 -71.60445877208557,42.39785366311443,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+  <Folder id="FeatureLayer16">
+    <name>Gas Program Participation and Population Overview</name>
+    <Snippet></Snippet>
+    <description><![CDATA[The participation runs from dark to light by ranking the block groups into decile bins or quintile bins as is appropriate for the town.  Darker areas have lower participation than lighter areas and are more pronounced on the map interface.
+<br></br>
+The data for the layer is collected from the program administrators annual billing and tracking data and aggregated to protect individual customer confidentiality.
+]]></description>
+    <Placemark id="ID_160000">
+      <name>15000US250277171001</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>15000US250277171001</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Block Group ID (Text)</td>
+<td>15000US250277171001</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Town</td>
+<td>BERLIN</td>
+</tr>
+<tr>
+<td>County</td>
+<td>WORCESTER</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Active gas locations, 2020</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Active gas accounts as of December, 2020</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Gas location participation rate in 2017</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Gas location participation rate in 2018</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Gas location participation rate in 2019</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Unique gas location participation rate 2013 - 2019</td>
+<td>No Data</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Total 2013-2019 unique gas location participation rate ranking</td>
+<td>Ranked number 2 out of 2 block groups for location participation</td>
+</tr>
+<tr>
+<td>Final decile for 13-19 gas participation</td>
+<td>99999</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dashboard Link</td>
+<td><a target="_blank" href="https://www.masssavedata.com/Public/CustomerProfileDashboard">https://www.masssavedata.com/Public/CustomerProfileDashboard</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle160</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.66057479133745,42.41821866426808,0 -71.66063379124465,42.41824066462299,0 -71.66354879181823,42.4089726625348,0 -71.66372979200845,42.40838566325208,0 -71.66385479177961,42.40799166312365,0 -71.66441579189304,42.40620466196548,0 -71.66470779204667,42.40527466193212,0 -71.66660379273874,42.39924166034241,0 -71.66672879331789,42.39883766046522,0 -71.66661379152188,42.39875766049281,0 -71.66636679159068,42.39846766116238,0 -71.66613579205564,42.39811166083413,0 -71.66587379189551,42.39763066047716,0 -71.66572979231403,42.39719866067413,0 -71.66564279122662,42.39665266083056,0 -71.66549879210686,42.395146660443,0 -71.66542779208741,42.39416266063569,0 -71.66534979120169,42.39344566016132,0 -71.66524979104051,42.39265666023815,0 -71.6651427911727,42.39136665976412,0 -71.66508579187429,42.39074365940669,0 -71.66496279068507,42.39030965895022,0 -71.66483279201198,42.38994965916167,0 -71.66459679181966,42.3895286597696,0 -71.66445079057786,42.38933266010453,0 -71.66399779157366,42.38882665849266,0 -71.6638637899098,42.38879365900215,0 -71.66370279141088,42.38873165852453,0 -71.66336879077815,42.38862465940976,0 -71.66320379099763,42.388566659331,0 -71.6629587908821,42.38848965952574,0 -71.66286978965194,42.38845965876704,0 -71.66271279020243,42.38839265922051,0 -71.662549790317,42.38833265946622,0 -71.66223379045243,42.38819865940356,0 -71.66192879056345,42.38805165923451,0 -71.66176579000211,42.3879926585728,0 -71.66145378957364,42.38785365871795,0 -71.66130079030393,42.38778065940026,0 -71.66113378996666,42.3877256588662,0 -71.66097978970799,42.3876546591314,0 -71.6606587901709,42.38752665935446,0 -71.6605027898913,42.3874586596858,0 -71.66042878951024,42.38742965882034,0 -71.6602177886725,42.38746665882008,0 -71.65972878991929,42.38737665947509,0 -71.65919778909618,42.38733765910224,0 -71.6542347870485,42.38692865977268,0 -71.65069078653312,42.38663965947203,0 -71.6497957866823,42.38657765953698,0 -71.64657378474243,42.38632065949768,0 -71.6452737852125,42.38624865953395,0 -71.64448978402625,42.3861936596164,0 -71.64337778419446,42.38611465982998,0 -71.64187578410534,42.38600265957512,0 -71.64115578347436,42.38604865971406,0 -71.64033278246617,42.38616565961667,0 -71.63966778264948,42.38622265941518,0 -71.63773078319285,42.38633065876043,0 -71.63500678132695,42.38648266037807,0 -71.63456678186611,42.38648366018246,0 -71.63262378041776,42.38655766001831,0 -71.63234078082191,42.38655966039192,0 -71.63121378005464,42.38656965953793,0 -71.63014978007719,42.38666766010609,0 -71.6294577795007,42.38680065954769,0 -71.62875377934475,42.38704066040255,0 -71.6280367793145,42.38744965999798,0 -71.62714177862608,42.38810765964781,0 -71.62595977805503,42.38912166030778,0 -71.62519577825441,42.38970866032729,0 -71.62447977812929,42.39014366055487,0 -71.62375077695432,42.39053466130581,0 -71.62311877741792,42.39079266163939,0 -71.62253377715945,42.39096166056876,0 -71.62117277802359,42.39127366093321,0 -71.61960677689201,42.39162666150503,0 -71.61829377633401,42.39197866157816,0 -71.61493377518357,42.3929026612221,0 -71.61387977511294,42.39297966246184,0 -71.61142677428799,42.39354266179898,0 -71.60981677330636,42.39391766141644,0 -71.6092727729457,42.39411566210317,0 -71.60870777392536,42.39437766238241,0 -71.60817477342056,42.39468766200292,0 -71.60736677270177,42.39536166189977,0 -71.60672877222611,42.39598866181683,0 -71.60619077288386,42.39640966293778,0 -71.60561577176478,42.39690466266941,0 -71.60515677226995,42.3973466634726,0 -71.6049007721483,42.39760066291782,0 -71.60461277255249,42.39776766254482,0 -71.60448994087379,42.39783625688038,0 -71.60445877208557,42.39785366311443,0 -71.60452977259951,42.39788366320215,0 -71.60492771810151,42.39803297023639,0 -71.60517477280425,42.39812566349993,0 -71.60714990195257,42.39903149836006,0 -71.60720477367234,42.39905666294794,0 -71.60741477251052,42.39915466329057,0 -71.60755477323264,42.39922066373798,0 -71.60769577341249,42.39928566287784,0 -71.60792620822986,42.39938032835881,0 -71.60806577368798,42.39943766258156,0 -71.60864777321228,42.39970066350526,0 -71.60924577341946,42.39997066299697,0 -71.60987477397686,42.40025566249773,0 -71.6099849616886,42.40030541964254,0 -71.61048377407093,42.40053066313777,0 -71.61112177415977,42.40081966326338,0 -71.61182477514443,42.4011366626341,0 -71.61308477438836,42.40170666302792,0 -71.61451977589375,42.40235566335254,0 -71.61667077586422,42.40332866399164,0 -71.61764277689056,42.40376766358628,0 -71.61885077751695,42.40431466354692,0 -71.61956977745287,42.40464166392021,0 -71.61978577806032,42.40473366387057,0 -71.61999077672083,42.40482666338173,0 -71.62059777764848,42.40510466429285,0 -71.62119577784276,42.40536566356914,0 -71.62178977825481,42.40564766365512,0 -71.62253277807415,42.40598066355852,0 -71.62291077830541,42.40615066356452,0 -71.62480277933686,42.40700566353751,0 -71.62653678019156,42.40779066431101,0 -71.628055781244,42.40847966468463,0 -71.62817178110738,42.4085286641639,0 -71.63002278096049,42.40936566418258,0 -71.63041878068768,42.40954566430685,0 -71.63095078146687,42.40969866418605,0 -71.63231878158086,42.41009166419266,0 -71.6330447817197,42.4103006638036,0 -71.63476178301107,42.41079466411371,0 -71.63527778304308,42.41094366371034,0 -71.63703278276608,42.41144866415213,0 -71.63928678462108,42.41210266421531,0 -71.64150378493984,42.41273566412101,0 -71.64380778550198,42.41339866531856,0 -71.64548178574303,42.41387966472783,0 -71.64583560365232,42.4139817143647,0 -71.64600878617625,42.41403166498026,0 -71.64809878768841,42.41463366471117,0 -71.64927478791663,42.41496966436144,0 -71.65153078856737,42.41562066521789,0 -71.65351478922811,42.41619166476521,0 -71.65421978913473,42.41639466464032,0 -71.65511879006748,42.41665366478526,0 -71.65745279047648,42.41732966535108,0 -71.66057479133745,42.41821866426808,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_160001">
+      <name>15000US250277171002</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>15000US250277171002</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Block Group ID (Text)</td>
+<td>15000US250277171002</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Town</td>
+<td>BERLIN</td>
+</tr>
+<tr>
+<td>County</td>
+<td>WORCESTER</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Active gas locations, 2020</td>
+<td>130</td>
+</tr>
+<tr>
+<td>Active gas accounts as of December, 2020</td>
+<td>131</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Gas location participation rate in 2017</td>
+<td>2.27</td>
+</tr>
+<tr>
+<td>Gas location participation rate in 2018</td>
+<td>3.01</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Gas location participation rate in 2019</td>
+<td>8.33</td>
+</tr>
+<tr>
+<td>Unique gas location participation rate 2013 - 2019</td>
+<td>30.56</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Total 2013-2019 unique gas location participation rate ranking</td>
+<td>Ranked number 1 out of 2 block groups for location participation</td>
+</tr>
+<tr>
+<td>Final decile for 13-19 gas participation</td>
+<td>5</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Dashboard Link</td>
+<td><a target="_blank" href="https://www.masssavedata.com/Public/CustomerProfileDashboard">https://www.masssavedata.com/Public/CustomerProfileDashboard</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle150</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.60445877208557,42.39785366311443,0 -71.60448994087379,42.39783625688038,0 -71.60461277255249,42.39776766254482,0 -71.6049007721483,42.39760066291782,0 -71.60515677226995,42.3973466634726,0 -71.60561577176478,42.39690466266941,0 -71.60619077288386,42.39640966293778,0 -71.60672877222611,42.39598866181683,0 -71.60736677270177,42.39536166189977,0 -71.60817477342056,42.39468766200292,0 -71.60870777392536,42.39437766238241,0 -71.6092727729457,42.39411566210317,0 -71.60981677330636,42.39391766141644,0 -71.61142677428799,42.39354266179898,0 -71.61387977511294,42.39297966246184,0 -71.61493377518357,42.3929026612221,0 -71.61829377633401,42.39197866157816,0 -71.61960677689201,42.39162666150503,0 -71.62117277802359,42.39127366093321,0 -71.62253377715945,42.39096166056876,0 -71.62311877741792,42.39079266163939,0 -71.62375077695432,42.39053466130581,0 -71.62447977812929,42.39014366055487,0 -71.62519577825441,42.38970866032729,0 -71.62595977805503,42.38912166030778,0 -71.62714177862608,42.38810765964781,0 -71.6280367793145,42.38744965999798,0 -71.62875377934475,42.38704066040255,0 -71.6294577795007,42.38680065954769,0 -71.63014978007719,42.38666766010609,0 -71.63121378005464,42.38656965953793,0 -71.63234078082191,42.38655966039192,0 -71.63262378041776,42.38655766001831,0 -71.63456678186611,42.38648366018246,0 -71.63500678132695,42.38648266037807,0 -71.63773078319285,42.38633065876043,0 -71.63966778264948,42.38622265941518,0 -71.64033278246617,42.38616565961667,0 -71.64115578347436,42.38604865971406,0 -71.64187578410534,42.38600265957512,0 -71.64337778419446,42.38611465982998,0 -71.64448978402625,42.3861936596164,0 -71.6452737852125,42.38624865953395,0 -71.64657378474243,42.38632065949768,0 -71.6497957866823,42.38657765953698,0 -71.65069078653312,42.38663965947203,0 -71.6542347870485,42.38692865977268,0 -71.65919778909618,42.38733765910224,0 -71.65972878991929,42.38737665947509,0 -71.6602177886725,42.38746665882008,0 -71.66042878951024,42.38742965882034,0 -71.6605027898913,42.3874586596858,0 -71.6606587901709,42.38752665935446,0 -71.66097978970799,42.3876546591314,0 -71.66113378996666,42.3877256588662,0 -71.66130079030393,42.38778065940026,0 -71.66145378957364,42.38785365871795,0 -71.66176579000211,42.3879926585728,0 -71.66192879056345,42.38805165923451,0 -71.66223379045243,42.38819865940356,0 -71.662549790317,42.38833265946622,0 -71.66271279020243,42.38839265922051,0 -71.66286978965194,42.38845965876704,0 -71.6629587908821,42.38848965952574,0 -71.66320379099763,42.388566659331,0 -71.66336879077815,42.38862465940976,0 -71.66370279141088,42.38873165852453,0 -71.6638637899098,42.38879365900215,0 -71.66399779157366,42.38882665849266,0 -71.66445079057786,42.38933266010453,0 -71.66459679181966,42.3895286597696,0 -71.66483279201198,42.38994965916167,0 -71.66496279068507,42.39030965895022,0 -71.66508579187429,42.39074365940669,0 -71.6651427911727,42.39136665976412,0 -71.66524979104051,42.39265666023815,0 -71.66534979120169,42.39344566016132,0 -71.66542779208741,42.39416266063569,0 -71.66549879210686,42.395146660443,0 -71.66564279122662,42.39665266083056,0 -71.66572979231403,42.39719866067413,0 -71.66587379189551,42.39763066047716,0 -71.66613579205564,42.39811166083413,0 -71.66636679159068,42.39846766116238,0 -71.66661379152188,42.39875766049281,0 -71.66672879331789,42.39883766046522,0 -71.66693679245836,42.39817766106305,0 -71.66761179213656,42.39602665989401,0 -71.66805479355794,42.3946206598861,0 -71.66806225910626,42.39462189586098,0 -71.6695897933962,42.39487465978407,0 -71.67632279568217,42.39611266038062,0 -71.67651579578465,42.39614765969186,0 -71.67652872395057,42.39610722840998,0 -71.6770017951481,42.39462766005316,0 -71.67767579530423,42.39254365951724,0 -71.67813279558037,42.39113065916486,0 -71.67825679489243,42.39074965931929,0 -71.67872079626328,42.38931265914405,0 -71.67876679603042,42.38917165873016,0 -71.67696679568843,42.38862465896649,0 -71.67615079491239,42.38837665931681,0 -71.67369579373786,42.38762965897666,0 -71.67136479368941,42.38692165826684,0 -71.67055179284077,42.38667365852313,0 -71.67093779326744,42.38553065846862,0 -71.67159479351777,42.38361765796062,0 -71.67220179319322,42.3817776580927,0 -71.67229379296649,42.38150165782751,0 -71.67231879279322,42.38142665801369,0 -71.67240379308194,42.38117365756699,0 -71.67248079368189,42.38094765750925,0 -71.67298179319951,42.37946165760948,0 -71.67308879307993,42.37914165729568,0 -71.67334979383803,42.3783636568142,0 -71.67362579314366,42.37754565706916,0 -71.67402479284199,42.37635965695138,0 -71.67426679326442,42.37564265657086,0 -71.67554579272023,42.37184265524034,0 -71.67557879372443,42.37174465553311,0 -71.67778240618958,42.36519944634498,0 -71.67779479358126,42.36516265438728,0 -71.67637859150645,42.36489458180656,0 -71.67618879328289,42.36485865446911,0 -71.67307379261933,42.36437765452448,0 -71.67047379186748,42.36397965468171,0 -71.66704979090723,42.36345765429276,0 -71.66324178927123,42.36287665400759,0 -71.65970678849882,42.36233765469488,0 -71.65600578640797,42.36177265493287,0 -71.6553387874245,42.36167465483806,0 -71.65435578666937,42.36152365462895,0 -71.65242178478822,42.36122565496816,0 -71.65192878522933,42.36113965447165,0 -71.64949478456791,42.36077865486092,0 -71.64789078411759,42.36054365441443,0 -71.64639357857678,42.36035099161212,0 -71.64632878424234,42.3603426546554,0 -71.64602121418049,42.36029427652806,0 -71.64414178302795,42.35999865485326,0 -71.64406878342307,42.35998765397667,0 -71.6438917824876,42.35995865429052,0 -71.64316378270475,42.35984265430821,0 -71.64221278269295,42.35969465426143,0 -71.64189278182236,42.35964265413836,0 -71.64019678081016,42.35937565492517,0 -71.64057978058294,42.35941665518027,0 -71.63978278140554,42.35929565494649,0 -71.63875278055015,42.35914065508877,0 -71.63863878092063,42.35912265463514,0 -71.63709577967099,42.35888965468931,0 -71.63624777998265,42.3587586544264,0 -71.63403878000949,42.35842065459392,0 -71.63369077910473,42.35808965494076,0 -71.63248677839445,42.35715665398926,0 -71.63031677793583,42.35529865394168,0 -71.63022377695508,42.35521765393063,0 -71.63000877761688,42.35503065326694,0 -71.62842677706396,42.35365165346705,0 -71.62638477570231,42.3518806533506,0 -71.62476277548706,42.35050565346734,0 -71.6247487757574,42.35051265303842,0 -71.62470277562041,42.35047365323285,0 -71.62465579254869,42.35049569624663,0 -71.62432977550013,42.35064865318577,0 -71.62429277553744,42.35066665289592,0 -71.62393677531557,42.35083565351987,0 -71.62359577542729,42.35099565300555,0 -71.62356477590976,42.35101065349539,0 -71.62155177476036,42.3519616537952,0 -71.61973777435303,42.35281765430515,0 -71.61736677332671,42.35393765481794,0 -71.61675577338768,42.35422665463139,0 -71.61598277339493,42.35459065408366,0 -71.61245477242967,42.35625665512519,0 -71.61000777132817,42.35741165469214,0 -71.60989021514618,42.35758977128123,0 -71.6098757719403,42.35761165467492,0 -71.6098679927195,42.35762233312183,0 -71.60958877224805,42.35800565500752,0 -71.60832877090411,42.35979765571046,0 -71.60776677035274,42.36059465523138,0 -71.60745577037707,42.36103865502642,0 -71.60724477036976,42.361336656134,0 -71.60711177084319,42.3615266551891,0 -71.60699977001973,42.36168565595399,0 -71.60675577115688,42.3620326556739,0 -71.60656077090125,42.36230865579675,0 -71.60638077001224,42.36256465641264,0 -71.60634176983412,42.36261965628902,0 -71.60583877076218,42.36333665644767,0 -71.60545277046194,42.36388265713814,0 -71.60534876976243,42.36403065647014,0 -71.60525477028675,42.36416465622625,0 -71.60440476998376,42.36537265623016,0 -71.60306576938756,42.36727565755194,0 -71.60318777051997,42.36733765651665,0 -71.60322249073158,42.36735997745493,0 -71.60331376918684,42.36741865662053,0 -71.60579677100513,42.36887865719076,0 -71.60592677049164,42.36895465689175,0 -71.60634577051292,42.3692016574575,0 -71.60649377026599,42.36928865746253,0 -71.60692777069957,42.36954265696459,0 -71.60775977089504,42.37003065719017,0 -71.60760947081842,42.37012288724399,0 -71.60745177084883,42.37021965780733,0 -71.60646677092227,42.37081865745575,0 -71.60550877079282,42.37141665781146,0 -71.60246529581271,42.3732836208772,0 -71.59885276909722,42.37549965894127,0 -71.59822176798738,42.37588665905603,0 -71.59796376858604,42.37604565889486,0 -71.59387276724753,42.37855665946068,0 -71.59109576671067,42.38026166038064,0 -71.59019976659835,42.3808126593163,0 -71.58961176667968,42.38117266061526,0 -71.5883037658606,42.38197566085798,0 -71.58794076586791,42.3821986604898,0 -71.58501876459994,42.38399266088808,0 -71.58320176500409,42.38510466068655,0 -71.58250607346243,42.38553310767335,0 -71.58190276389331,42.38590466121285,0 -71.58004376404654,42.3869576617556,0 -71.58015076363677,42.38700666206348,0 -71.58510876486992,42.38920266210632,0 -71.58581676543292,42.38951666184891,0 -71.59055876615923,42.39162766246254,0 -71.60126537449843,42.39638525894499,0 -71.6025377716412,42.39695066314789,0 -71.60363477220575,42.39743766264444,0 -71.60425177165853,42.39771166288197,0 -71.6042585358573,42.39773227656793,0 -71.60427277230886,42.39777566304763,0 -71.60445877208557,42.39785366311443,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+  <Folder id="FeatureLayer17">
+    <name>Small Business Participation and Population Overview</name>
+    <Snippet></Snippet>
+    <description><![CDATA[The C&I small business data is reported at the zip code level, within the town.  Some zip codes cross town boundaries - in these instances only participants from within the town are counted. 
+<br></br>
+There are some instances where zip codes are not present geographically - this can happen from postal sorting facilities or large, single source mail facilities like colleges and high rise towers.  Additionally there may be some zip codes that are just over a town's administrative line and are not usually associated with the town.  DNV has allowed these zip codes to remain in the data and they are reflected in the total count of unique zip codes reported within the town, however as very small areas or single point source they are not reflected in the geographic maps.
+<br></br>
+The data for the layer is collected from the program administrators annual billing and tracking data and aggregated to protect individual customer confidentiality.
+<br></br>
+Geographic boundaries of U.S. Postal Service five-digit ZIP Code areas from HERE (Navteq), aligned to the street centerlines of the Q2 2015 HERE core map release.HERE (the company that now includes data products that were formerly branded as "Navteq") maintains several versions of postal code data. The version distributed by MassGIS is an extract of HERE's nationwide "Un-generalized, without water holes, with County" layer. This dataset displays water features on coastlines but does not include water holes, and includes ZIP Code boundaries split at County boundaries. The HERE Postal Code Boundaries product does not have void areas in postal coverage, even if such non-delivery areas exist in reality (such as a remote mountainous area). This is by design, for aesthetic purposes and to ensure that a postal code is assigned to all geographic areas.MassGIS added the 02222 ZIP Code in Boston and made minor edits to the boundary of the 02108 and 02114 ZIP Codes in Boston based on ancillary address data. MassGIS also projected the data into the Massachusetts State Plane Mainland coordinate system.]]></description>
+    <Placemark id="ID_170000">
+      <name>01503</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>01503</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Zip Code</td>
+<td>01503</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Town</td>
+<td>BERLIN</td>
+</tr>
+<tr>
+<td>2019 Active Electric Locations</td>
+<td>151</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>2019 Active Electric Accounts</td>
+<td>211</td>
+</tr>
+<tr>
+<td>2017 Electric Location Participation Rate</td>
+<td>2.14</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>2018 Electric Location Participation Rate</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2019 Electric Location Participation Rate</td>
+<td>3.31</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>2013-2019 Electric Location Participation Rate</td>
+<td>13.86</td>
+</tr>
+<tr>
+<td>2013-2019 Within City Zip Code Electric Participation Rate Rank</td>
+<td>Zip code participation ranked 1 out of 1 reported zip codes</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>2019 Active Gas Locations</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2019 Active Gas Accounts</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>2017 Gas Location Participation Rate</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2018 Gas Location Participation Rate</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>2019 Gas Location Participation Rate</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2013-2019 Gas Location Participation Rate</td>
+<td>2.08</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>2013-2019 Within City Zip Code Gas Participation Rate Rank</td>
+<td>Zip code participation ranked 1 out of 1 reported zip codes</td>
+</tr>
+<tr>
+<td>Hyperlink</td>
+<td><a target="_blank" href="https://www.masssavedata.com/Public/CustomerProfileDashboard">https://www.masssavedata.com/Public/CustomerProfileDashboard</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle170</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.67776022698169,42.39115678691567,0 -71.67852723126522,42.38922978418878,0 -71.67693224347782,42.38879478475505,0 -71.67034229106596,42.38674378339018,0 -71.67289430768409,42.37908377478799,0 -71.67756134204257,42.36522875882206,0 -71.67617034958134,42.36494075938915,0 -71.67048538231423,42.36410375902369,0 -71.66930738840597,42.36392875897504,0 -71.65437147180533,42.36160075962839,0 -71.64656651362385,42.36045475905595,0 -71.64415852566904,42.36006975956565,0 -71.64399852705408,42.36004375916907,0 -71.64396452657293,42.36003875926904,0 -71.6438412282766,42.35998305929367,0 -71.64377167471426,42.35995164097624,0 -71.64078732381486,42.35949708436976,0 -71.63902255321185,42.35931085938847,0 -71.63890755377649,42.35929875904304,0 -71.63841994403195,42.35913650075635,0 -71.63816311591006,42.35909738273482,0 -71.63718656215934,42.35905275905706,0 -71.63609689520317,42.35878266889196,0 -71.63391788818741,42.35845077745174,0 -71.63356270710845,42.35815453387813,0 -71.63320858376035,42.35806675858827,0 -71.63267458835668,42.35748175816838,0 -71.63066260158877,42.35581975703842,0 -71.63031760393372,42.35549575679498,0 -71.63026279838626,42.35540219963114,0 -71.6245074855799,42.35060190195735,0 -71.60990272970228,42.35757217505993,0 -71.60987559508205,42.35761326184307,0 -71.60985340901333,42.35764370258713,0 -71.6032222581923,42.36736031796855,0 -71.60331321440209,42.36741867512441,0 -71.60396800996874,42.36780257474548,0 -71.60424760851996,42.36796857501957,0 -71.60515360269226,42.36850097564013,0 -71.60546360153218,42.36868157554908,0 -71.60577399876033,42.36886557639843,0 -71.60591249904449,42.36894807640275,0 -71.60605819741886,42.36898467616651,0 -71.60631409618775,42.36918407641446,0 -71.60637509598951,42.3692201760521,0 -71.6067776927361,42.36945437655611,0 -71.6074103899898,42.3698258765373,0 -71.60776048724077,42.37003067722547,0 -71.60760920708268,42.37012272364031,0 -71.6077694314917,42.37022238555321,0 -71.60242550524959,42.37330658545346,0 -71.59885552816805,42.37550148503055,0 -71.59822453060218,42.37589858535139,0 -71.59382375218601,42.37854478970617,0 -71.58983067338251,42.38102549305393,0 -71.5896997744303,42.38110679365926,0 -71.58830178130854,42.38197279500714,0 -71.5882297812191,42.38206879519189,0 -71.58815978156912,42.38218879511122,0 -71.58806978297092,42.38230879499105,0 -71.58805978229925,42.38233879528605,0 -71.58792978362027,42.38221879541781,0 -71.58539179686295,42.38375479781286,0 -71.58499979954515,42.38401579843801,0 -71.58323180868293,42.38513879984191,0 -71.58104382147654,42.38657210201316,0 -71.58072182332931,42.3866758021981,0 -71.58061982428374,42.38671880235006,0 -71.58051982442865,42.38676880243776,0 -71.5803398249288,42.38687880212655,0 -71.58025992311814,42.38693167962832,0 -71.59257612554146,42.39247463037771,0 -71.59340964262508,42.39282520697135,0 -71.59435113573822,42.39322120677949,0 -71.59526463051424,42.39362740771892,0 -71.59543472901719,42.39371410701116,0 -71.59552842898764,42.39375220709692,0 -71.59575652650884,42.39383100737454,0 -71.59592199077271,42.39398044975579,0 -71.60416487158879,42.39769018908036,0 -71.60492769379106,42.3980329594553,0 -71.60601365646076,42.39812081010805,0 -71.60605865708834,42.39823081059672,0 -71.60608165619289,42.39830181089396,0 -71.60610965649372,42.39836081046035,0 -71.60612065563528,42.39841981039378,0 -71.60614765538175,42.39850281030104,0 -71.60618965510226,42.39854481061501,0 -71.60624565535126,42.39856981077167,0 -71.60631265389266,42.39859681104628,0 -71.60631665406162,42.39861581117444,0 -71.6063442582943,42.39866948594187,0 -71.62447449831714,42.40681622329885,0 -71.62868998246925,42.4087200953697,0 -71.63036647524289,42.40875981731163,0 -71.63118946964812,42.4087788168515,0 -71.6312264697,42.40879281707338,0 -71.63136846754829,42.40885581708483,0 -71.63137946837829,42.40885781663018,0 -71.63142246734466,42.40887881673738,0 -71.63311755426288,42.40953861707327,0 -71.63937940436946,42.41197581856056,0 -71.64893322905255,42.41466411908525,0 -71.65389328893345,42.41605981924224,0 -71.6571962625297,42.41707682007537,0 -71.6606332342196,42.41810181979012,0 -71.66170124122637,42.41407981529794,0 -71.66241824457345,42.41166481272823,0 -71.6628972479829,42.4099408102525,0 -71.66279025310598,42.40863980887054,0 -71.66189686995793,42.40597350620072,0 -71.66177027212625,42.40559580645545,0 -71.66453925444046,42.40536480493773,0 -71.66456055476233,42.40529690487642,0 -71.66649926516899,42.39912279745862,0 -71.66657466679331,42.39871849767643,0 -71.66658826623919,42.39864579721912,0 -71.66804927417645,42.39448479243514,0 -71.66958626333839,42.39474179278911,0 -71.67632521543048,42.39599779265217,0 -71.67671921852339,42.39466879121547,0 -71.67776022698169,42.39115678691567,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+  </Folder>
+  <Folder id="GroupLayer18">
+    <name>Income Eligible Households Layer</name>
+    <Snippet></Snippet>
+    <description><![CDATA[The data reflected in these maps comes from the Massachusetts Program Administrator lead energy efficiency programs.  Local community partners, town sustainability office, non-profits, and regional agencies all may have resources independent of the MA PA lead programs that can help you save energy and money.  Visit https://www.masscap.org/programs/energy-programs/ for more information about the community action agencies that support your town.
+<br></br>
+Additional socioeconomic data drill downs can be found on the PAs’ online dashboard at https://www.masssavedata.com/Public/CustomerProfileDashboard
+]]></description>
+  <Folder id="FeatureLayer20">
+    <name>Income Eligible Households</name>
+    <Snippet></Snippet>
+    <description><![CDATA[Income Eligible Households data is compiled from the 2015-2019  American Communities Survey dataset; participation and electric account population data is compiled from the Program Administrators internal IT systems.  ]]></description>
+    <Placemark id="ID_200000">
+      <name>15000US250277171001</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>15000US250277171001</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Block Group ID (Text)</td>
+<td>15000US250277171001</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Town</td>
+<td>BERLIN</td>
+</tr>
+<tr>
+<td>County</td>
+<td>WORCESTER</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Active electric locations, 2020</td>
+<td>278</td>
+</tr>
+<tr>
+<td>Active electric accounts as of December, 2020</td>
+<td>305</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique electric location participation rate 2013 - 2019</td>
+<td>44.85</td>
+</tr>
+<tr>
+<td>Total 2013-2019 unique electric location participation rate ranking</td>
+<td>Ranked number 1 out of 2 block groups for location participation</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Active gas locations, 2020</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Active gas accounts as of December, 2020</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique gas location participation rate 2013 - 2019</td>
+<td>No Data</td>
+</tr>
+<tr>
+<td>Total 2013-2019 unique gas location participation rate ranking</td>
+<td>Ranked number 2 out of 2 block groups for location participation</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Percent of 2019 ACS households identified as income eligible</td>
+<td>13.69</td>
+</tr>
+<tr>
+<td>Block Group rank ordered by percent of income eligible households in 2019</td>
+<td>Ranked number 2 out of 2 block groups for income eligible households</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Decile by ACS income eligible households</td>
+<td>5</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle200</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.66057479133745,42.41821866426808,0 -71.66063379124465,42.41824066462299,0 -71.66354879181823,42.4089726625348,0 -71.66372979200845,42.40838566325208,0 -71.66385479177961,42.40799166312365,0 -71.66441579189304,42.40620466196548,0 -71.66470779204667,42.40527466193212,0 -71.66660379273874,42.39924166034241,0 -71.66672879331789,42.39883766046522,0 -71.66661379152188,42.39875766049281,0 -71.66636679159068,42.39846766116238,0 -71.66613579205564,42.39811166083413,0 -71.66587379189551,42.39763066047716,0 -71.66572979231403,42.39719866067413,0 -71.66564279122662,42.39665266083056,0 -71.66549879210686,42.395146660443,0 -71.66542779208741,42.39416266063569,0 -71.66534979120169,42.39344566016132,0 -71.66524979104051,42.39265666023815,0 -71.6651427911727,42.39136665976412,0 -71.66508579187429,42.39074365940669,0 -71.66496279068507,42.39030965895022,0 -71.66483279201198,42.38994965916167,0 -71.66459679181966,42.3895286597696,0 -71.66445079057786,42.38933266010453,0 -71.66399779157366,42.38882665849266,0 -71.6638637899098,42.38879365900215,0 -71.66370279141088,42.38873165852453,0 -71.66336879077815,42.38862465940976,0 -71.66320379099763,42.388566659331,0 -71.6629587908821,42.38848965952574,0 -71.66286978965194,42.38845965876704,0 -71.66271279020243,42.38839265922051,0 -71.662549790317,42.38833265946622,0 -71.66223379045243,42.38819865940356,0 -71.66192879056345,42.38805165923451,0 -71.66176579000211,42.3879926585728,0 -71.66145378957364,42.38785365871795,0 -71.66130079030393,42.38778065940026,0 -71.66113378996666,42.3877256588662,0 -71.66097978970799,42.3876546591314,0 -71.6606587901709,42.38752665935446,0 -71.6605027898913,42.3874586596858,0 -71.66042878951024,42.38742965882034,0 -71.6602177886725,42.38746665882008,0 -71.65972878991929,42.38737665947509,0 -71.65919778909618,42.38733765910224,0 -71.6542347870485,42.38692865977268,0 -71.65069078653312,42.38663965947203,0 -71.6497957866823,42.38657765953698,0 -71.64657378474243,42.38632065949768,0 -71.6452737852125,42.38624865953395,0 -71.64448978402625,42.3861936596164,0 -71.64337778419446,42.38611465982998,0 -71.64187578410534,42.38600265957512,0 -71.64115578347436,42.38604865971406,0 -71.64033278246617,42.38616565961667,0 -71.63966778264948,42.38622265941518,0 -71.63773078319285,42.38633065876043,0 -71.63500678132695,42.38648266037807,0 -71.63456678186611,42.38648366018246,0 -71.63262378041776,42.38655766001831,0 -71.63234078082191,42.38655966039192,0 -71.63121378005464,42.38656965953793,0 -71.63014978007719,42.38666766010609,0 -71.6294577795007,42.38680065954769,0 -71.62875377934475,42.38704066040255,0 -71.6280367793145,42.38744965999798,0 -71.62714177862608,42.38810765964781,0 -71.62595977805503,42.38912166030778,0 -71.62519577825441,42.38970866032729,0 -71.62447977812929,42.39014366055487,0 -71.62375077695432,42.39053466130581,0 -71.62311877741792,42.39079266163939,0 -71.62253377715945,42.39096166056876,0 -71.62117277802359,42.39127366093321,0 -71.61960677689201,42.39162666150503,0 -71.61829377633401,42.39197866157816,0 -71.61493377518357,42.3929026612221,0 -71.61387977511294,42.39297966246184,0 -71.61142677428799,42.39354266179898,0 -71.60981677330636,42.39391766141644,0 -71.6092727729457,42.39411566210317,0 -71.60870777392536,42.39437766238241,0 -71.60817477342056,42.39468766200292,0 -71.60736677270177,42.39536166189977,0 -71.60672877222611,42.39598866181683,0 -71.60619077288386,42.39640966293778,0 -71.60561577176478,42.39690466266941,0 -71.60515677226995,42.3973466634726,0 -71.6049007721483,42.39760066291782,0 -71.60461277255249,42.39776766254482,0 -71.60448994087379,42.39783625688038,0 -71.60445877208557,42.39785366311443,0 -71.60452977259951,42.39788366320215,0 -71.60492771810151,42.39803297023639,0 -71.60517477280425,42.39812566349993,0 -71.60714990195257,42.39903149836006,0 -71.60720477367234,42.39905666294794,0 -71.60741477251052,42.39915466329057,0 -71.60755477323264,42.39922066373798,0 -71.60769577341249,42.39928566287784,0 -71.60792620822986,42.39938032835881,0 -71.60806577368798,42.39943766258156,0 -71.60864777321228,42.39970066350526,0 -71.60924577341946,42.39997066299697,0 -71.60987477397686,42.40025566249773,0 -71.6099849616886,42.40030541964254,0 -71.61048377407093,42.40053066313777,0 -71.61112177415977,42.40081966326338,0 -71.61182477514443,42.4011366626341,0 -71.61308477438836,42.40170666302792,0 -71.61451977589375,42.40235566335254,0 -71.61667077586422,42.40332866399164,0 -71.61764277689056,42.40376766358628,0 -71.61885077751695,42.40431466354692,0 -71.61956977745287,42.40464166392021,0 -71.61978577806032,42.40473366387057,0 -71.61999077672083,42.40482666338173,0 -71.62059777764848,42.40510466429285,0 -71.62119577784276,42.40536566356914,0 -71.62178977825481,42.40564766365512,0 -71.62253277807415,42.40598066355852,0 -71.62291077830541,42.40615066356452,0 -71.62480277933686,42.40700566353751,0 -71.62653678019156,42.40779066431101,0 -71.628055781244,42.40847966468463,0 -71.62817178110738,42.4085286641639,0 -71.63002278096049,42.40936566418258,0 -71.63041878068768,42.40954566430685,0 -71.63095078146687,42.40969866418605,0 -71.63231878158086,42.41009166419266,0 -71.6330447817197,42.4103006638036,0 -71.63476178301107,42.41079466411371,0 -71.63527778304308,42.41094366371034,0 -71.63703278276608,42.41144866415213,0 -71.63928678462108,42.41210266421531,0 -71.64150378493984,42.41273566412101,0 -71.64380778550198,42.41339866531856,0 -71.64548178574303,42.41387966472783,0 -71.64583560365232,42.4139817143647,0 -71.64600878617625,42.41403166498026,0 -71.64809878768841,42.41463366471117,0 -71.64927478791663,42.41496966436144,0 -71.65153078856737,42.41562066521789,0 -71.65351478922811,42.41619166476521,0 -71.65421978913473,42.41639466464032,0 -71.65511879006748,42.41665366478526,0 -71.65745279047648,42.41732966535108,0 -71.66057479133745,42.41821866426808,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_200001">
+      <name>15000US250277171002</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>15000US250277171002</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Block Group ID (Text)</td>
+<td>15000US250277171002</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Town</td>
+<td>BERLIN</td>
+</tr>
+<tr>
+<td>County</td>
+<td>WORCESTER</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Active electric locations, 2020</td>
+<td>757</td>
+</tr>
+<tr>
+<td>Active electric accounts as of December, 2020</td>
+<td>867</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique electric location participation rate 2013 - 2019</td>
+<td>34.88</td>
+</tr>
+<tr>
+<td>Total 2013-2019 unique electric location participation rate ranking</td>
+<td>Ranked number 2 out of 2 block groups for location participation</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Active gas locations, 2020</td>
+<td>130</td>
+</tr>
+<tr>
+<td>Active gas accounts as of December, 2020</td>
+<td>131</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique gas location participation rate 2013 - 2019</td>
+<td>30.56</td>
+</tr>
+<tr>
+<td>Total 2013-2019 unique gas location participation rate ranking</td>
+<td>Ranked number 1 out of 2 block groups for location participation</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Percent of 2019 ACS households identified as income eligible</td>
+<td>25.66</td>
+</tr>
+<tr>
+<td>Block Group rank ordered by percent of income eligible households in 2019</td>
+<td>Ranked number 1 out of 2 block groups for income eligible households</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Decile by ACS income eligible households</td>
+<td>10</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle201</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.60445877208557,42.39785366311443,0 -71.60448994087379,42.39783625688038,0 -71.60461277255249,42.39776766254482,0 -71.6049007721483,42.39760066291782,0 -71.60515677226995,42.3973466634726,0 -71.60561577176478,42.39690466266941,0 -71.60619077288386,42.39640966293778,0 -71.60672877222611,42.39598866181683,0 -71.60736677270177,42.39536166189977,0 -71.60817477342056,42.39468766200292,0 -71.60870777392536,42.39437766238241,0 -71.6092727729457,42.39411566210317,0 -71.60981677330636,42.39391766141644,0 -71.61142677428799,42.39354266179898,0 -71.61387977511294,42.39297966246184,0 -71.61493377518357,42.3929026612221,0 -71.61829377633401,42.39197866157816,0 -71.61960677689201,42.39162666150503,0 -71.62117277802359,42.39127366093321,0 -71.62253377715945,42.39096166056876,0 -71.62311877741792,42.39079266163939,0 -71.62375077695432,42.39053466130581,0 -71.62447977812929,42.39014366055487,0 -71.62519577825441,42.38970866032729,0 -71.62595977805503,42.38912166030778,0 -71.62714177862608,42.38810765964781,0 -71.6280367793145,42.38744965999798,0 -71.62875377934475,42.38704066040255,0 -71.6294577795007,42.38680065954769,0 -71.63014978007719,42.38666766010609,0 -71.63121378005464,42.38656965953793,0 -71.63234078082191,42.38655966039192,0 -71.63262378041776,42.38655766001831,0 -71.63456678186611,42.38648366018246,0 -71.63500678132695,42.38648266037807,0 -71.63773078319285,42.38633065876043,0 -71.63966778264948,42.38622265941518,0 -71.64033278246617,42.38616565961667,0 -71.64115578347436,42.38604865971406,0 -71.64187578410534,42.38600265957512,0 -71.64337778419446,42.38611465982998,0 -71.64448978402625,42.3861936596164,0 -71.6452737852125,42.38624865953395,0 -71.64657378474243,42.38632065949768,0 -71.6497957866823,42.38657765953698,0 -71.65069078653312,42.38663965947203,0 -71.6542347870485,42.38692865977268,0 -71.65919778909618,42.38733765910224,0 -71.65972878991929,42.38737665947509,0 -71.6602177886725,42.38746665882008,0 -71.66042878951024,42.38742965882034,0 -71.6605027898913,42.3874586596858,0 -71.6606587901709,42.38752665935446,0 -71.66097978970799,42.3876546591314,0 -71.66113378996666,42.3877256588662,0 -71.66130079030393,42.38778065940026,0 -71.66145378957364,42.38785365871795,0 -71.66176579000211,42.3879926585728,0 -71.66192879056345,42.38805165923451,0 -71.66223379045243,42.38819865940356,0 -71.662549790317,42.38833265946622,0 -71.66271279020243,42.38839265922051,0 -71.66286978965194,42.38845965876704,0 -71.6629587908821,42.38848965952574,0 -71.66320379099763,42.388566659331,0 -71.66336879077815,42.38862465940976,0 -71.66370279141088,42.38873165852453,0 -71.6638637899098,42.38879365900215,0 -71.66399779157366,42.38882665849266,0 -71.66445079057786,42.38933266010453,0 -71.66459679181966,42.3895286597696,0 -71.66483279201198,42.38994965916167,0 -71.66496279068507,42.39030965895022,0 -71.66508579187429,42.39074365940669,0 -71.6651427911727,42.39136665976412,0 -71.66524979104051,42.39265666023815,0 -71.66534979120169,42.39344566016132,0 -71.66542779208741,42.39416266063569,0 -71.66549879210686,42.395146660443,0 -71.66564279122662,42.39665266083056,0 -71.66572979231403,42.39719866067413,0 -71.66587379189551,42.39763066047716,0 -71.66613579205564,42.39811166083413,0 -71.66636679159068,42.39846766116238,0 -71.66661379152188,42.39875766049281,0 -71.66672879331789,42.39883766046522,0 -71.66693679245836,42.39817766106305,0 -71.66761179213656,42.39602665989401,0 -71.66805479355794,42.3946206598861,0 -71.66806225910626,42.39462189586098,0 -71.6695897933962,42.39487465978407,0 -71.67632279568217,42.39611266038062,0 -71.67651579578465,42.39614765969186,0 -71.67652872395057,42.39610722840998,0 -71.6770017951481,42.39462766005316,0 -71.67767579530423,42.39254365951724,0 -71.67813279558037,42.39113065916486,0 -71.67825679489243,42.39074965931929,0 -71.67872079626328,42.38931265914405,0 -71.67876679603042,42.38917165873016,0 -71.67696679568843,42.38862465896649,0 -71.67615079491239,42.38837665931681,0 -71.67369579373786,42.38762965897666,0 -71.67136479368941,42.38692165826684,0 -71.67055179284077,42.38667365852313,0 -71.67093779326744,42.38553065846862,0 -71.67159479351777,42.38361765796062,0 -71.67220179319322,42.3817776580927,0 -71.67229379296649,42.38150165782751,0 -71.67231879279322,42.38142665801369,0 -71.67240379308194,42.38117365756699,0 -71.67248079368189,42.38094765750925,0 -71.67298179319951,42.37946165760948,0 -71.67308879307993,42.37914165729568,0 -71.67334979383803,42.3783636568142,0 -71.67362579314366,42.37754565706916,0 -71.67402479284199,42.37635965695138,0 -71.67426679326442,42.37564265657086,0 -71.67554579272023,42.37184265524034,0 -71.67557879372443,42.37174465553311,0 -71.67778240618958,42.36519944634498,0 -71.67779479358126,42.36516265438728,0 -71.67637859150645,42.36489458180656,0 -71.67618879328289,42.36485865446911,0 -71.67307379261933,42.36437765452448,0 -71.67047379186748,42.36397965468171,0 -71.66704979090723,42.36345765429276,0 -71.66324178927123,42.36287665400759,0 -71.65970678849882,42.36233765469488,0 -71.65600578640797,42.36177265493287,0 -71.6553387874245,42.36167465483806,0 -71.65435578666937,42.36152365462895,0 -71.65242178478822,42.36122565496816,0 -71.65192878522933,42.36113965447165,0 -71.64949478456791,42.36077865486092,0 -71.64789078411759,42.36054365441443,0 -71.64639357857678,42.36035099161212,0 -71.64632878424234,42.3603426546554,0 -71.64602121418049,42.36029427652806,0 -71.64414178302795,42.35999865485326,0 -71.64406878342307,42.35998765397667,0 -71.6438917824876,42.35995865429052,0 -71.64316378270475,42.35984265430821,0 -71.64221278269295,42.35969465426143,0 -71.64189278182236,42.35964265413836,0 -71.64019678081016,42.35937565492517,0 -71.64057978058294,42.35941665518027,0 -71.63978278140554,42.35929565494649,0 -71.63875278055015,42.35914065508877,0 -71.63863878092063,42.35912265463514,0 -71.63709577967099,42.35888965468931,0 -71.63624777998265,42.3587586544264,0 -71.63403878000949,42.35842065459392,0 -71.63369077910473,42.35808965494076,0 -71.63248677839445,42.35715665398926,0 -71.63031677793583,42.35529865394168,0 -71.63022377695508,42.35521765393063,0 -71.63000877761688,42.35503065326694,0 -71.62842677706396,42.35365165346705,0 -71.62638477570231,42.3518806533506,0 -71.62476277548706,42.35050565346734,0 -71.6247487757574,42.35051265303842,0 -71.62470277562041,42.35047365323285,0 -71.62465579254869,42.35049569624663,0 -71.62432977550013,42.35064865318577,0 -71.62429277553744,42.35066665289592,0 -71.62393677531557,42.35083565351987,0 -71.62359577542729,42.35099565300555,0 -71.62356477590976,42.35101065349539,0 -71.62155177476036,42.3519616537952,0 -71.61973777435303,42.35281765430515,0 -71.61736677332671,42.35393765481794,0 -71.61675577338768,42.35422665463139,0 -71.61598277339493,42.35459065408366,0 -71.61245477242967,42.35625665512519,0 -71.61000777132817,42.35741165469214,0 -71.60989021514618,42.35758977128123,0 -71.6098757719403,42.35761165467492,0 -71.6098679927195,42.35762233312183,0 -71.60958877224805,42.35800565500752,0 -71.60832877090411,42.35979765571046,0 -71.60776677035274,42.36059465523138,0 -71.60745577037707,42.36103865502642,0 -71.60724477036976,42.361336656134,0 -71.60711177084319,42.3615266551891,0 -71.60699977001973,42.36168565595399,0 -71.60675577115688,42.3620326556739,0 -71.60656077090125,42.36230865579675,0 -71.60638077001224,42.36256465641264,0 -71.60634176983412,42.36261965628902,0 -71.60583877076218,42.36333665644767,0 -71.60545277046194,42.36388265713814,0 -71.60534876976243,42.36403065647014,0 -71.60525477028675,42.36416465622625,0 -71.60440476998376,42.36537265623016,0 -71.60306576938756,42.36727565755194,0 -71.60318777051997,42.36733765651665,0 -71.60322249073158,42.36735997745493,0 -71.60331376918684,42.36741865662053,0 -71.60579677100513,42.36887865719076,0 -71.60592677049164,42.36895465689175,0 -71.60634577051292,42.3692016574575,0 -71.60649377026599,42.36928865746253,0 -71.60692777069957,42.36954265696459,0 -71.60775977089504,42.37003065719017,0 -71.60760947081842,42.37012288724399,0 -71.60745177084883,42.37021965780733,0 -71.60646677092227,42.37081865745575,0 -71.60550877079282,42.37141665781146,0 -71.60246529581271,42.3732836208772,0 -71.59885276909722,42.37549965894127,0 -71.59822176798738,42.37588665905603,0 -71.59796376858604,42.37604565889486,0 -71.59387276724753,42.37855665946068,0 -71.59109576671067,42.38026166038064,0 -71.59019976659835,42.3808126593163,0 -71.58961176667968,42.38117266061526,0 -71.5883037658606,42.38197566085798,0 -71.58794076586791,42.3821986604898,0 -71.58501876459994,42.38399266088808,0 -71.58320176500409,42.38510466068655,0 -71.58250607346243,42.38553310767335,0 -71.58190276389331,42.38590466121285,0 -71.58004376404654,42.3869576617556,0 -71.58015076363677,42.38700666206348,0 -71.58510876486992,42.38920266210632,0 -71.58581676543292,42.38951666184891,0 -71.59055876615923,42.39162766246254,0 -71.60126537449843,42.39638525894499,0 -71.6025377716412,42.39695066314789,0 -71.60363477220575,42.39743766264444,0 -71.60425177165853,42.39771166288197,0 -71.6042585358573,42.39773227656793,0 -71.60427277230886,42.39777566304763,0 -71.60445877208557,42.39785366311443,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+  </Folder>
+  <Folder id="GroupLayer21">
+    <name>Rental Households Layer</name>
+    <Snippet></Snippet>
+    <description><![CDATA[The data reflected in these maps comes from the Massachusetts Program Administrator lead energy efficiency programs.  Local community partners, town sustainability office, non-profits, and regional agencies all may have resources independent of the MA PA lead programs that can help you save energy and money.  Visit https://www.mass.gov/rental-assistance-programs for more information about the renter assistance programs for income eligible customers.
+<br></br>
+Additional socioeconomic data drill downs can be found on the PAs’ online dashboard at https://www.masssavedata.com/Public/CustomerProfileDashboard
+]]></description>
+  <Folder id="FeatureLayer22">
+    <name>Rental Households Layer</name>
+    <Snippet></Snippet>
+    <description><![CDATA[Renter Occupied Households data is compiled from the 2015-2019  American Communities Survey dataset; participation and electric account population data is compiled from the Program Administrators internal IT systems.  ]]></description>
+    <Placemark id="ID_220000">
+      <name>15000US250277171001</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>15000US250277171001</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Block Group ID (Text)</td>
+<td>15000US250277171001</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Town</td>
+<td>BERLIN</td>
+</tr>
+<tr>
+<td>County</td>
+<td>WORCESTER</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Active electric locations, 2020</td>
+<td>278</td>
+</tr>
+<tr>
+<td>Active electric accounts as of December, 2020</td>
+<td>305</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique electric location participation rate 2013 - 2019</td>
+<td>44.85</td>
+</tr>
+<tr>
+<td>Total 2013-2019 unique electric location participation rate ranking</td>
+<td>Ranked number 1 out of 2 block groups for location participation</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Active gas locations, 2020</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Active gas accounts as of December, 2020</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique gas location participation rate 2013 - 2019</td>
+<td>No Data</td>
+</tr>
+<tr>
+<td>Total 2013-2019 unique gas location participation rate ranking</td>
+<td>Ranked number 2 out of 2 block groups for location participation</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Percent of 2019 ACS households identified as renter occupied households</td>
+<td>4.14</td>
+</tr>
+<tr>
+<td>Block Group rank ordered by percent of renter occupied households in 2019</td>
+<td>Ranked number 2 out of 2 block groups for renter occupied households</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Decile by ACS renter occupied households</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Dashboard Link</td>
+<td><a target="_blank" href="https://www.masssavedata.com/Public/CustomerProfileDashboard">https://www.masssavedata.com/Public/CustomerProfileDashboard</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle200</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.66057479133745,42.41821866426808,0 -71.66063379124465,42.41824066462299,0 -71.66354879181823,42.4089726625348,0 -71.66372979200845,42.40838566325208,0 -71.66385479177961,42.40799166312365,0 -71.66441579189304,42.40620466196548,0 -71.66470779204667,42.40527466193212,0 -71.66660379273874,42.39924166034241,0 -71.66672879331789,42.39883766046522,0 -71.66661379152188,42.39875766049281,0 -71.66636679159068,42.39846766116238,0 -71.66613579205564,42.39811166083413,0 -71.66587379189551,42.39763066047716,0 -71.66572979231403,42.39719866067413,0 -71.66564279122662,42.39665266083056,0 -71.66549879210686,42.395146660443,0 -71.66542779208741,42.39416266063569,0 -71.66534979120169,42.39344566016132,0 -71.66524979104051,42.39265666023815,0 -71.6651427911727,42.39136665976412,0 -71.66508579187429,42.39074365940669,0 -71.66496279068507,42.39030965895022,0 -71.66483279201198,42.38994965916167,0 -71.66459679181966,42.3895286597696,0 -71.66445079057786,42.38933266010453,0 -71.66399779157366,42.38882665849266,0 -71.6638637899098,42.38879365900215,0 -71.66370279141088,42.38873165852453,0 -71.66336879077815,42.38862465940976,0 -71.66320379099763,42.388566659331,0 -71.6629587908821,42.38848965952574,0 -71.66286978965194,42.38845965876704,0 -71.66271279020243,42.38839265922051,0 -71.662549790317,42.38833265946622,0 -71.66223379045243,42.38819865940356,0 -71.66192879056345,42.38805165923451,0 -71.66176579000211,42.3879926585728,0 -71.66145378957364,42.38785365871795,0 -71.66130079030393,42.38778065940026,0 -71.66113378996666,42.3877256588662,0 -71.66097978970799,42.3876546591314,0 -71.6606587901709,42.38752665935446,0 -71.6605027898913,42.3874586596858,0 -71.66042878951024,42.38742965882034,0 -71.6602177886725,42.38746665882008,0 -71.65972878991929,42.38737665947509,0 -71.65919778909618,42.38733765910224,0 -71.6542347870485,42.38692865977268,0 -71.65069078653312,42.38663965947203,0 -71.6497957866823,42.38657765953698,0 -71.64657378474243,42.38632065949768,0 -71.6452737852125,42.38624865953395,0 -71.64448978402625,42.3861936596164,0 -71.64337778419446,42.38611465982998,0 -71.64187578410534,42.38600265957512,0 -71.64115578347436,42.38604865971406,0 -71.64033278246617,42.38616565961667,0 -71.63966778264948,42.38622265941518,0 -71.63773078319285,42.38633065876043,0 -71.63500678132695,42.38648266037807,0 -71.63456678186611,42.38648366018246,0 -71.63262378041776,42.38655766001831,0 -71.63234078082191,42.38655966039192,0 -71.63121378005464,42.38656965953793,0 -71.63014978007719,42.38666766010609,0 -71.6294577795007,42.38680065954769,0 -71.62875377934475,42.38704066040255,0 -71.6280367793145,42.38744965999798,0 -71.62714177862608,42.38810765964781,0 -71.62595977805503,42.38912166030778,0 -71.62519577825441,42.38970866032729,0 -71.62447977812929,42.39014366055487,0 -71.62375077695432,42.39053466130581,0 -71.62311877741792,42.39079266163939,0 -71.62253377715945,42.39096166056876,0 -71.62117277802359,42.39127366093321,0 -71.61960677689201,42.39162666150503,0 -71.61829377633401,42.39197866157816,0 -71.61493377518357,42.3929026612221,0 -71.61387977511294,42.39297966246184,0 -71.61142677428799,42.39354266179898,0 -71.60981677330636,42.39391766141644,0 -71.6092727729457,42.39411566210317,0 -71.60870777392536,42.39437766238241,0 -71.60817477342056,42.39468766200292,0 -71.60736677270177,42.39536166189977,0 -71.60672877222611,42.39598866181683,0 -71.60619077288386,42.39640966293778,0 -71.60561577176478,42.39690466266941,0 -71.60515677226995,42.3973466634726,0 -71.6049007721483,42.39760066291782,0 -71.60461277255249,42.39776766254482,0 -71.60448994087379,42.39783625688038,0 -71.60445877208557,42.39785366311443,0 -71.60452977259951,42.39788366320215,0 -71.60492771810151,42.39803297023639,0 -71.60517477280425,42.39812566349993,0 -71.60714990195257,42.39903149836006,0 -71.60720477367234,42.39905666294794,0 -71.60741477251052,42.39915466329057,0 -71.60755477323264,42.39922066373798,0 -71.60769577341249,42.39928566287784,0 -71.60792620822986,42.39938032835881,0 -71.60806577368798,42.39943766258156,0 -71.60864777321228,42.39970066350526,0 -71.60924577341946,42.39997066299697,0 -71.60987477397686,42.40025566249773,0 -71.6099849616886,42.40030541964254,0 -71.61048377407093,42.40053066313777,0 -71.61112177415977,42.40081966326338,0 -71.61182477514443,42.4011366626341,0 -71.61308477438836,42.40170666302792,0 -71.61451977589375,42.40235566335254,0 -71.61667077586422,42.40332866399164,0 -71.61764277689056,42.40376766358628,0 -71.61885077751695,42.40431466354692,0 -71.61956977745287,42.40464166392021,0 -71.61978577806032,42.40473366387057,0 -71.61999077672083,42.40482666338173,0 -71.62059777764848,42.40510466429285,0 -71.62119577784276,42.40536566356914,0 -71.62178977825481,42.40564766365512,0 -71.62253277807415,42.40598066355852,0 -71.62291077830541,42.40615066356452,0 -71.62480277933686,42.40700566353751,0 -71.62653678019156,42.40779066431101,0 -71.628055781244,42.40847966468463,0 -71.62817178110738,42.4085286641639,0 -71.63002278096049,42.40936566418258,0 -71.63041878068768,42.40954566430685,0 -71.63095078146687,42.40969866418605,0 -71.63231878158086,42.41009166419266,0 -71.6330447817197,42.4103006638036,0 -71.63476178301107,42.41079466411371,0 -71.63527778304308,42.41094366371034,0 -71.63703278276608,42.41144866415213,0 -71.63928678462108,42.41210266421531,0 -71.64150378493984,42.41273566412101,0 -71.64380778550198,42.41339866531856,0 -71.64548178574303,42.41387966472783,0 -71.64583560365232,42.4139817143647,0 -71.64600878617625,42.41403166498026,0 -71.64809878768841,42.41463366471117,0 -71.64927478791663,42.41496966436144,0 -71.65153078856737,42.41562066521789,0 -71.65351478922811,42.41619166476521,0 -71.65421978913473,42.41639466464032,0 -71.65511879006748,42.41665366478526,0 -71.65745279047648,42.41732966535108,0 -71.66057479133745,42.41821866426808,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_220001">
+      <name>15000US250277171002</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>15000US250277171002</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Block Group ID (Text)</td>
+<td>15000US250277171002</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Town</td>
+<td>BERLIN</td>
+</tr>
+<tr>
+<td>County</td>
+<td>WORCESTER</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Active electric locations, 2020</td>
+<td>757</td>
+</tr>
+<tr>
+<td>Active electric accounts as of December, 2020</td>
+<td>867</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique electric location participation rate 2013 - 2019</td>
+<td>34.88</td>
+</tr>
+<tr>
+<td>Total 2013-2019 unique electric location participation rate ranking</td>
+<td>Ranked number 2 out of 2 block groups for location participation</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Active gas locations, 2020</td>
+<td>130</td>
+</tr>
+<tr>
+<td>Active gas accounts as of December, 2020</td>
+<td>131</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique gas location participation rate 2013 - 2019</td>
+<td>30.56</td>
+</tr>
+<tr>
+<td>Total 2013-2019 unique gas location participation rate ranking</td>
+<td>Ranked number 1 out of 2 block groups for location participation</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Percent of 2019 ACS households identified as renter occupied households</td>
+<td>22.31</td>
+</tr>
+<tr>
+<td>Block Group rank ordered by percent of renter occupied households in 2019</td>
+<td>Ranked number 1 out of 2 block groups for renter occupied households</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Decile by ACS renter occupied households</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Dashboard Link</td>
+<td><a target="_blank" href="https://www.masssavedata.com/Public/CustomerProfileDashboard">https://www.masssavedata.com/Public/CustomerProfileDashboard</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle201</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.60445877208557,42.39785366311443,0 -71.60448994087379,42.39783625688038,0 -71.60461277255249,42.39776766254482,0 -71.6049007721483,42.39760066291782,0 -71.60515677226995,42.3973466634726,0 -71.60561577176478,42.39690466266941,0 -71.60619077288386,42.39640966293778,0 -71.60672877222611,42.39598866181683,0 -71.60736677270177,42.39536166189977,0 -71.60817477342056,42.39468766200292,0 -71.60870777392536,42.39437766238241,0 -71.6092727729457,42.39411566210317,0 -71.60981677330636,42.39391766141644,0 -71.61142677428799,42.39354266179898,0 -71.61387977511294,42.39297966246184,0 -71.61493377518357,42.3929026612221,0 -71.61829377633401,42.39197866157816,0 -71.61960677689201,42.39162666150503,0 -71.62117277802359,42.39127366093321,0 -71.62253377715945,42.39096166056876,0 -71.62311877741792,42.39079266163939,0 -71.62375077695432,42.39053466130581,0 -71.62447977812929,42.39014366055487,0 -71.62519577825441,42.38970866032729,0 -71.62595977805503,42.38912166030778,0 -71.62714177862608,42.38810765964781,0 -71.6280367793145,42.38744965999798,0 -71.62875377934475,42.38704066040255,0 -71.6294577795007,42.38680065954769,0 -71.63014978007719,42.38666766010609,0 -71.63121378005464,42.38656965953793,0 -71.63234078082191,42.38655966039192,0 -71.63262378041776,42.38655766001831,0 -71.63456678186611,42.38648366018246,0 -71.63500678132695,42.38648266037807,0 -71.63773078319285,42.38633065876043,0 -71.63966778264948,42.38622265941518,0 -71.64033278246617,42.38616565961667,0 -71.64115578347436,42.38604865971406,0 -71.64187578410534,42.38600265957512,0 -71.64337778419446,42.38611465982998,0 -71.64448978402625,42.3861936596164,0 -71.6452737852125,42.38624865953395,0 -71.64657378474243,42.38632065949768,0 -71.6497957866823,42.38657765953698,0 -71.65069078653312,42.38663965947203,0 -71.6542347870485,42.38692865977268,0 -71.65919778909618,42.38733765910224,0 -71.65972878991929,42.38737665947509,0 -71.6602177886725,42.38746665882008,0 -71.66042878951024,42.38742965882034,0 -71.6605027898913,42.3874586596858,0 -71.6606587901709,42.38752665935446,0 -71.66097978970799,42.3876546591314,0 -71.66113378996666,42.3877256588662,0 -71.66130079030393,42.38778065940026,0 -71.66145378957364,42.38785365871795,0 -71.66176579000211,42.3879926585728,0 -71.66192879056345,42.38805165923451,0 -71.66223379045243,42.38819865940356,0 -71.662549790317,42.38833265946622,0 -71.66271279020243,42.38839265922051,0 -71.66286978965194,42.38845965876704,0 -71.6629587908821,42.38848965952574,0 -71.66320379099763,42.388566659331,0 -71.66336879077815,42.38862465940976,0 -71.66370279141088,42.38873165852453,0 -71.6638637899098,42.38879365900215,0 -71.66399779157366,42.38882665849266,0 -71.66445079057786,42.38933266010453,0 -71.66459679181966,42.3895286597696,0 -71.66483279201198,42.38994965916167,0 -71.66496279068507,42.39030965895022,0 -71.66508579187429,42.39074365940669,0 -71.6651427911727,42.39136665976412,0 -71.66524979104051,42.39265666023815,0 -71.66534979120169,42.39344566016132,0 -71.66542779208741,42.39416266063569,0 -71.66549879210686,42.395146660443,0 -71.66564279122662,42.39665266083056,0 -71.66572979231403,42.39719866067413,0 -71.66587379189551,42.39763066047716,0 -71.66613579205564,42.39811166083413,0 -71.66636679159068,42.39846766116238,0 -71.66661379152188,42.39875766049281,0 -71.66672879331789,42.39883766046522,0 -71.66693679245836,42.39817766106305,0 -71.66761179213656,42.39602665989401,0 -71.66805479355794,42.3946206598861,0 -71.66806225910626,42.39462189586098,0 -71.6695897933962,42.39487465978407,0 -71.67632279568217,42.39611266038062,0 -71.67651579578465,42.39614765969186,0 -71.67652872395057,42.39610722840998,0 -71.6770017951481,42.39462766005316,0 -71.67767579530423,42.39254365951724,0 -71.67813279558037,42.39113065916486,0 -71.67825679489243,42.39074965931929,0 -71.67872079626328,42.38931265914405,0 -71.67876679603042,42.38917165873016,0 -71.67696679568843,42.38862465896649,0 -71.67615079491239,42.38837665931681,0 -71.67369579373786,42.38762965897666,0 -71.67136479368941,42.38692165826684,0 -71.67055179284077,42.38667365852313,0 -71.67093779326744,42.38553065846862,0 -71.67159479351777,42.38361765796062,0 -71.67220179319322,42.3817776580927,0 -71.67229379296649,42.38150165782751,0 -71.67231879279322,42.38142665801369,0 -71.67240379308194,42.38117365756699,0 -71.67248079368189,42.38094765750925,0 -71.67298179319951,42.37946165760948,0 -71.67308879307993,42.37914165729568,0 -71.67334979383803,42.3783636568142,0 -71.67362579314366,42.37754565706916,0 -71.67402479284199,42.37635965695138,0 -71.67426679326442,42.37564265657086,0 -71.67554579272023,42.37184265524034,0 -71.67557879372443,42.37174465553311,0 -71.67778240618958,42.36519944634498,0 -71.67779479358126,42.36516265438728,0 -71.67637859150645,42.36489458180656,0 -71.67618879328289,42.36485865446911,0 -71.67307379261933,42.36437765452448,0 -71.67047379186748,42.36397965468171,0 -71.66704979090723,42.36345765429276,0 -71.66324178927123,42.36287665400759,0 -71.65970678849882,42.36233765469488,0 -71.65600578640797,42.36177265493287,0 -71.6553387874245,42.36167465483806,0 -71.65435578666937,42.36152365462895,0 -71.65242178478822,42.36122565496816,0 -71.65192878522933,42.36113965447165,0 -71.64949478456791,42.36077865486092,0 -71.64789078411759,42.36054365441443,0 -71.64639357857678,42.36035099161212,0 -71.64632878424234,42.3603426546554,0 -71.64602121418049,42.36029427652806,0 -71.64414178302795,42.35999865485326,0 -71.64406878342307,42.35998765397667,0 -71.6438917824876,42.35995865429052,0 -71.64316378270475,42.35984265430821,0 -71.64221278269295,42.35969465426143,0 -71.64189278182236,42.35964265413836,0 -71.64019678081016,42.35937565492517,0 -71.64057978058294,42.35941665518027,0 -71.63978278140554,42.35929565494649,0 -71.63875278055015,42.35914065508877,0 -71.63863878092063,42.35912265463514,0 -71.63709577967099,42.35888965468931,0 -71.63624777998265,42.3587586544264,0 -71.63403878000949,42.35842065459392,0 -71.63369077910473,42.35808965494076,0 -71.63248677839445,42.35715665398926,0 -71.63031677793583,42.35529865394168,0 -71.63022377695508,42.35521765393063,0 -71.63000877761688,42.35503065326694,0 -71.62842677706396,42.35365165346705,0 -71.62638477570231,42.3518806533506,0 -71.62476277548706,42.35050565346734,0 -71.6247487757574,42.35051265303842,0 -71.62470277562041,42.35047365323285,0 -71.62465579254869,42.35049569624663,0 -71.62432977550013,42.35064865318577,0 -71.62429277553744,42.35066665289592,0 -71.62393677531557,42.35083565351987,0 -71.62359577542729,42.35099565300555,0 -71.62356477590976,42.35101065349539,0 -71.62155177476036,42.3519616537952,0 -71.61973777435303,42.35281765430515,0 -71.61736677332671,42.35393765481794,0 -71.61675577338768,42.35422665463139,0 -71.61598277339493,42.35459065408366,0 -71.61245477242967,42.35625665512519,0 -71.61000777132817,42.35741165469214,0 -71.60989021514618,42.35758977128123,0 -71.6098757719403,42.35761165467492,0 -71.6098679927195,42.35762233312183,0 -71.60958877224805,42.35800565500752,0 -71.60832877090411,42.35979765571046,0 -71.60776677035274,42.36059465523138,0 -71.60745577037707,42.36103865502642,0 -71.60724477036976,42.361336656134,0 -71.60711177084319,42.3615266551891,0 -71.60699977001973,42.36168565595399,0 -71.60675577115688,42.3620326556739,0 -71.60656077090125,42.36230865579675,0 -71.60638077001224,42.36256465641264,0 -71.60634176983412,42.36261965628902,0 -71.60583877076218,42.36333665644767,0 -71.60545277046194,42.36388265713814,0 -71.60534876976243,42.36403065647014,0 -71.60525477028675,42.36416465622625,0 -71.60440476998376,42.36537265623016,0 -71.60306576938756,42.36727565755194,0 -71.60318777051997,42.36733765651665,0 -71.60322249073158,42.36735997745493,0 -71.60331376918684,42.36741865662053,0 -71.60579677100513,42.36887865719076,0 -71.60592677049164,42.36895465689175,0 -71.60634577051292,42.3692016574575,0 -71.60649377026599,42.36928865746253,0 -71.60692777069957,42.36954265696459,0 -71.60775977089504,42.37003065719017,0 -71.60760947081842,42.37012288724399,0 -71.60745177084883,42.37021965780733,0 -71.60646677092227,42.37081865745575,0 -71.60550877079282,42.37141665781146,0 -71.60246529581271,42.3732836208772,0 -71.59885276909722,42.37549965894127,0 -71.59822176798738,42.37588665905603,0 -71.59796376858604,42.37604565889486,0 -71.59387276724753,42.37855665946068,0 -71.59109576671067,42.38026166038064,0 -71.59019976659835,42.3808126593163,0 -71.58961176667968,42.38117266061526,0 -71.5883037658606,42.38197566085798,0 -71.58794076586791,42.3821986604898,0 -71.58501876459994,42.38399266088808,0 -71.58320176500409,42.38510466068655,0 -71.58250607346243,42.38553310767335,0 -71.58190276389331,42.38590466121285,0 -71.58004376404654,42.3869576617556,0 -71.58015076363677,42.38700666206348,0 -71.58510876486992,42.38920266210632,0 -71.58581676543292,42.38951666184891,0 -71.59055876615923,42.39162766246254,0 -71.60126537449843,42.39638525894499,0 -71.6025377716412,42.39695066314789,0 -71.60363477220575,42.39743766264444,0 -71.60425177165853,42.39771166288197,0 -71.6042585358573,42.39773227656793,0 -71.60427277230886,42.39777566304763,0 -71.60445877208557,42.39785366311443,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+  </Folder>
+  <Folder id="GroupLayer23">
+    <name>English Isolated Households Layer</name>
+    <Snippet></Snippet>
+    <description><![CDATA[The data reflected in these maps comes from the Massachusetts Program Administrator lead energy efficiency programs.  Local community partners, town sustainability office, non-profits, and regional agencies all may have resources independent of the MA PA lead programs that can help you save energy and money.  Visit https://www.mass.gov/service-details/language-assistance and https://www.mass.gov/orgs/office-of-multilingual-services for more information about language support services for customers with limited English proficiency.
+<br></br>
+Additional socioeconomic data drill downs can be found on the PAs’ online dashboard at https://www.masssavedata.com/Public/CustomerProfileDashboard
+]]></description>
+  <Folder id="FeatureLayer24">
+    <name>English Isolated Households</name>
+    <Snippet></Snippet>
+    <description><![CDATA[English Isolated Households data is compiled from the 2015-2019 American Communities Survey dataset; participation and electric account population data is compiled from the Program Administrators internal IT systems.  ]]></description>
+    <Placemark id="ID_240000">
+      <name>15000US250277171001</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>15000US250277171001</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Block Group ID (Text)</td>
+<td>15000US250277171001</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Town</td>
+<td>BERLIN</td>
+</tr>
+<tr>
+<td>County</td>
+<td>WORCESTER</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Active electric locations, 2020</td>
+<td>278</td>
+</tr>
+<tr>
+<td>Active electric accounts as of December, 2020</td>
+<td>305</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique electric location participation rate 2013 - 2019</td>
+<td>44.85</td>
+</tr>
+<tr>
+<td>Total 2013-2019 unique electric location participation rate ranking</td>
+<td>Ranked number 1 out of 2 block groups for location participation</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Active gas locations, 2020</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Active gas accounts as of December, 2020</td>
+<td>0</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique gas location participation rate 2013 - 2019</td>
+<td>No Data</td>
+</tr>
+<tr>
+<td>Total 2013-2019 unique gas location participation rate ranking</td>
+<td>Ranked number 2 out of 2 block groups for location participation</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Percent of 2019 ACS households identified as English isolated</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Block Group rank ordered by percent of english isolated households in 2019</td>
+<td>Ranked number 2 out of 2 block groups for english isolated households</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Decile by ACS English isolated households</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Dashboard Link</td>
+<td><a target="_blank" href="https://www.masssavedata.com/Public/CustomerProfileDashboard">https://www.masssavedata.com/Public/CustomerProfileDashboard</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle200</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.66057479133745,42.41821866426808,0 -71.66063379124465,42.41824066462299,0 -71.66354879181823,42.4089726625348,0 -71.66372979200845,42.40838566325208,0 -71.66385479177961,42.40799166312365,0 -71.66441579189304,42.40620466196548,0 -71.66470779204667,42.40527466193212,0 -71.66660379273874,42.39924166034241,0 -71.66672879331789,42.39883766046522,0 -71.66661379152188,42.39875766049281,0 -71.66636679159068,42.39846766116238,0 -71.66613579205564,42.39811166083413,0 -71.66587379189551,42.39763066047716,0 -71.66572979231403,42.39719866067413,0 -71.66564279122662,42.39665266083056,0 -71.66549879210686,42.395146660443,0 -71.66542779208741,42.39416266063569,0 -71.66534979120169,42.39344566016132,0 -71.66524979104051,42.39265666023815,0 -71.6651427911727,42.39136665976412,0 -71.66508579187429,42.39074365940669,0 -71.66496279068507,42.39030965895022,0 -71.66483279201198,42.38994965916167,0 -71.66459679181966,42.3895286597696,0 -71.66445079057786,42.38933266010453,0 -71.66399779157366,42.38882665849266,0 -71.6638637899098,42.38879365900215,0 -71.66370279141088,42.38873165852453,0 -71.66336879077815,42.38862465940976,0 -71.66320379099763,42.388566659331,0 -71.6629587908821,42.38848965952574,0 -71.66286978965194,42.38845965876704,0 -71.66271279020243,42.38839265922051,0 -71.662549790317,42.38833265946622,0 -71.66223379045243,42.38819865940356,0 -71.66192879056345,42.38805165923451,0 -71.66176579000211,42.3879926585728,0 -71.66145378957364,42.38785365871795,0 -71.66130079030393,42.38778065940026,0 -71.66113378996666,42.3877256588662,0 -71.66097978970799,42.3876546591314,0 -71.6606587901709,42.38752665935446,0 -71.6605027898913,42.3874586596858,0 -71.66042878951024,42.38742965882034,0 -71.6602177886725,42.38746665882008,0 -71.65972878991929,42.38737665947509,0 -71.65919778909618,42.38733765910224,0 -71.6542347870485,42.38692865977268,0 -71.65069078653312,42.38663965947203,0 -71.6497957866823,42.38657765953698,0 -71.64657378474243,42.38632065949768,0 -71.6452737852125,42.38624865953395,0 -71.64448978402625,42.3861936596164,0 -71.64337778419446,42.38611465982998,0 -71.64187578410534,42.38600265957512,0 -71.64115578347436,42.38604865971406,0 -71.64033278246617,42.38616565961667,0 -71.63966778264948,42.38622265941518,0 -71.63773078319285,42.38633065876043,0 -71.63500678132695,42.38648266037807,0 -71.63456678186611,42.38648366018246,0 -71.63262378041776,42.38655766001831,0 -71.63234078082191,42.38655966039192,0 -71.63121378005464,42.38656965953793,0 -71.63014978007719,42.38666766010609,0 -71.6294577795007,42.38680065954769,0 -71.62875377934475,42.38704066040255,0 -71.6280367793145,42.38744965999798,0 -71.62714177862608,42.38810765964781,0 -71.62595977805503,42.38912166030778,0 -71.62519577825441,42.38970866032729,0 -71.62447977812929,42.39014366055487,0 -71.62375077695432,42.39053466130581,0 -71.62311877741792,42.39079266163939,0 -71.62253377715945,42.39096166056876,0 -71.62117277802359,42.39127366093321,0 -71.61960677689201,42.39162666150503,0 -71.61829377633401,42.39197866157816,0 -71.61493377518357,42.3929026612221,0 -71.61387977511294,42.39297966246184,0 -71.61142677428799,42.39354266179898,0 -71.60981677330636,42.39391766141644,0 -71.6092727729457,42.39411566210317,0 -71.60870777392536,42.39437766238241,0 -71.60817477342056,42.39468766200292,0 -71.60736677270177,42.39536166189977,0 -71.60672877222611,42.39598866181683,0 -71.60619077288386,42.39640966293778,0 -71.60561577176478,42.39690466266941,0 -71.60515677226995,42.3973466634726,0 -71.6049007721483,42.39760066291782,0 -71.60461277255249,42.39776766254482,0 -71.60448994087379,42.39783625688038,0 -71.60445877208557,42.39785366311443,0 -71.60452977259951,42.39788366320215,0 -71.60492771810151,42.39803297023639,0 -71.60517477280425,42.39812566349993,0 -71.60714990195257,42.39903149836006,0 -71.60720477367234,42.39905666294794,0 -71.60741477251052,42.39915466329057,0 -71.60755477323264,42.39922066373798,0 -71.60769577341249,42.39928566287784,0 -71.60792620822986,42.39938032835881,0 -71.60806577368798,42.39943766258156,0 -71.60864777321228,42.39970066350526,0 -71.60924577341946,42.39997066299697,0 -71.60987477397686,42.40025566249773,0 -71.6099849616886,42.40030541964254,0 -71.61048377407093,42.40053066313777,0 -71.61112177415977,42.40081966326338,0 -71.61182477514443,42.4011366626341,0 -71.61308477438836,42.40170666302792,0 -71.61451977589375,42.40235566335254,0 -71.61667077586422,42.40332866399164,0 -71.61764277689056,42.40376766358628,0 -71.61885077751695,42.40431466354692,0 -71.61956977745287,42.40464166392021,0 -71.61978577806032,42.40473366387057,0 -71.61999077672083,42.40482666338173,0 -71.62059777764848,42.40510466429285,0 -71.62119577784276,42.40536566356914,0 -71.62178977825481,42.40564766365512,0 -71.62253277807415,42.40598066355852,0 -71.62291077830541,42.40615066356452,0 -71.62480277933686,42.40700566353751,0 -71.62653678019156,42.40779066431101,0 -71.628055781244,42.40847966468463,0 -71.62817178110738,42.4085286641639,0 -71.63002278096049,42.40936566418258,0 -71.63041878068768,42.40954566430685,0 -71.63095078146687,42.40969866418605,0 -71.63231878158086,42.41009166419266,0 -71.6330447817197,42.4103006638036,0 -71.63476178301107,42.41079466411371,0 -71.63527778304308,42.41094366371034,0 -71.63703278276608,42.41144866415213,0 -71.63928678462108,42.41210266421531,0 -71.64150378493984,42.41273566412101,0 -71.64380778550198,42.41339866531856,0 -71.64548178574303,42.41387966472783,0 -71.64583560365232,42.4139817143647,0 -71.64600878617625,42.41403166498026,0 -71.64809878768841,42.41463366471117,0 -71.64927478791663,42.41496966436144,0 -71.65153078856737,42.41562066521789,0 -71.65351478922811,42.41619166476521,0 -71.65421978913473,42.41639466464032,0 -71.65511879006748,42.41665366478526,0 -71.65745279047648,42.41732966535108,0 -71.66057479133745,42.41821866426808,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="ID_240001">
+      <name>15000US250277171002</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>15000US250277171002</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Block Group ID (Text)</td>
+<td>15000US250277171002</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Town</td>
+<td>BERLIN</td>
+</tr>
+<tr>
+<td>County</td>
+<td>WORCESTER</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Active electric locations, 2020</td>
+<td>757</td>
+</tr>
+<tr>
+<td>Active electric accounts as of December, 2020</td>
+<td>867</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique electric location participation rate 2013 - 2019</td>
+<td>34.88</td>
+</tr>
+<tr>
+<td>Total 2013-2019 unique electric location participation rate ranking</td>
+<td>Ranked number 2 out of 2 block groups for location participation</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Active gas locations, 2020</td>
+<td>130</td>
+</tr>
+<tr>
+<td>Active gas accounts as of December, 2020</td>
+<td>131</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Unique gas location participation rate 2013 - 2019</td>
+<td>30.56</td>
+</tr>
+<tr>
+<td>Total 2013-2019 unique gas location participation rate ranking</td>
+<td>Ranked number 1 out of 2 block groups for location participation</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Percent of 2019 ACS households identified as English isolated</td>
+<td>1.5</td>
+</tr>
+<tr>
+<td>Block Group rank ordered by percent of english isolated households in 2019</td>
+<td>Ranked number 1 out of 2 block groups for english isolated households</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Decile by ACS English isolated households</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Dashboard Link</td>
+<td><a target="_blank" href="https://www.masssavedata.com/Public/CustomerProfileDashboard">https://www.masssavedata.com/Public/CustomerProfileDashboard</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#PolyStyle201</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude>          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -71.60445877208557,42.39785366311443,0 -71.60448994087379,42.39783625688038,0 -71.60461277255249,42.39776766254482,0 -71.6049007721483,42.39760066291782,0 -71.60515677226995,42.3973466634726,0 -71.60561577176478,42.39690466266941,0 -71.60619077288386,42.39640966293778,0 -71.60672877222611,42.39598866181683,0 -71.60736677270177,42.39536166189977,0 -71.60817477342056,42.39468766200292,0 -71.60870777392536,42.39437766238241,0 -71.6092727729457,42.39411566210317,0 -71.60981677330636,42.39391766141644,0 -71.61142677428799,42.39354266179898,0 -71.61387977511294,42.39297966246184,0 -71.61493377518357,42.3929026612221,0 -71.61829377633401,42.39197866157816,0 -71.61960677689201,42.39162666150503,0 -71.62117277802359,42.39127366093321,0 -71.62253377715945,42.39096166056876,0 -71.62311877741792,42.39079266163939,0 -71.62375077695432,42.39053466130581,0 -71.62447977812929,42.39014366055487,0 -71.62519577825441,42.38970866032729,0 -71.62595977805503,42.38912166030778,0 -71.62714177862608,42.38810765964781,0 -71.6280367793145,42.38744965999798,0 -71.62875377934475,42.38704066040255,0 -71.6294577795007,42.38680065954769,0 -71.63014978007719,42.38666766010609,0 -71.63121378005464,42.38656965953793,0 -71.63234078082191,42.38655966039192,0 -71.63262378041776,42.38655766001831,0 -71.63456678186611,42.38648366018246,0 -71.63500678132695,42.38648266037807,0 -71.63773078319285,42.38633065876043,0 -71.63966778264948,42.38622265941518,0 -71.64033278246617,42.38616565961667,0 -71.64115578347436,42.38604865971406,0 -71.64187578410534,42.38600265957512,0 -71.64337778419446,42.38611465982998,0 -71.64448978402625,42.3861936596164,0 -71.6452737852125,42.38624865953395,0 -71.64657378474243,42.38632065949768,0 -71.6497957866823,42.38657765953698,0 -71.65069078653312,42.38663965947203,0 -71.6542347870485,42.38692865977268,0 -71.65919778909618,42.38733765910224,0 -71.65972878991929,42.38737665947509,0 -71.6602177886725,42.38746665882008,0 -71.66042878951024,42.38742965882034,0 -71.6605027898913,42.3874586596858,0 -71.6606587901709,42.38752665935446,0 -71.66097978970799,42.3876546591314,0 -71.66113378996666,42.3877256588662,0 -71.66130079030393,42.38778065940026,0 -71.66145378957364,42.38785365871795,0 -71.66176579000211,42.3879926585728,0 -71.66192879056345,42.38805165923451,0 -71.66223379045243,42.38819865940356,0 -71.662549790317,42.38833265946622,0 -71.66271279020243,42.38839265922051,0 -71.66286978965194,42.38845965876704,0 -71.6629587908821,42.38848965952574,0 -71.66320379099763,42.388566659331,0 -71.66336879077815,42.38862465940976,0 -71.66370279141088,42.38873165852453,0 -71.6638637899098,42.38879365900215,0 -71.66399779157366,42.38882665849266,0 -71.66445079057786,42.38933266010453,0 -71.66459679181966,42.3895286597696,0 -71.66483279201198,42.38994965916167,0 -71.66496279068507,42.39030965895022,0 -71.66508579187429,42.39074365940669,0 -71.6651427911727,42.39136665976412,0 -71.66524979104051,42.39265666023815,0 -71.66534979120169,42.39344566016132,0 -71.66542779208741,42.39416266063569,0 -71.66549879210686,42.395146660443,0 -71.66564279122662,42.39665266083056,0 -71.66572979231403,42.39719866067413,0 -71.66587379189551,42.39763066047716,0 -71.66613579205564,42.39811166083413,0 -71.66636679159068,42.39846766116238,0 -71.66661379152188,42.39875766049281,0 -71.66672879331789,42.39883766046522,0 -71.66693679245836,42.39817766106305,0 -71.66761179213656,42.39602665989401,0 -71.66805479355794,42.3946206598861,0 -71.66806225910626,42.39462189586098,0 -71.6695897933962,42.39487465978407,0 -71.67632279568217,42.39611266038062,0 -71.67651579578465,42.39614765969186,0 -71.67652872395057,42.39610722840998,0 -71.6770017951481,42.39462766005316,0 -71.67767579530423,42.39254365951724,0 -71.67813279558037,42.39113065916486,0 -71.67825679489243,42.39074965931929,0 -71.67872079626328,42.38931265914405,0 -71.67876679603042,42.38917165873016,0 -71.67696679568843,42.38862465896649,0 -71.67615079491239,42.38837665931681,0 -71.67369579373786,42.38762965897666,0 -71.67136479368941,42.38692165826684,0 -71.67055179284077,42.38667365852313,0 -71.67093779326744,42.38553065846862,0 -71.67159479351777,42.38361765796062,0 -71.67220179319322,42.3817776580927,0 -71.67229379296649,42.38150165782751,0 -71.67231879279322,42.38142665801369,0 -71.67240379308194,42.38117365756699,0 -71.67248079368189,42.38094765750925,0 -71.67298179319951,42.37946165760948,0 -71.67308879307993,42.37914165729568,0 -71.67334979383803,42.3783636568142,0 -71.67362579314366,42.37754565706916,0 -71.67402479284199,42.37635965695138,0 -71.67426679326442,42.37564265657086,0 -71.67554579272023,42.37184265524034,0 -71.67557879372443,42.37174465553311,0 -71.67778240618958,42.36519944634498,0 -71.67779479358126,42.36516265438728,0 -71.67637859150645,42.36489458180656,0 -71.67618879328289,42.36485865446911,0 -71.67307379261933,42.36437765452448,0 -71.67047379186748,42.36397965468171,0 -71.66704979090723,42.36345765429276,0 -71.66324178927123,42.36287665400759,0 -71.65970678849882,42.36233765469488,0 -71.65600578640797,42.36177265493287,0 -71.6553387874245,42.36167465483806,0 -71.65435578666937,42.36152365462895,0 -71.65242178478822,42.36122565496816,0 -71.65192878522933,42.36113965447165,0 -71.64949478456791,42.36077865486092,0 -71.64789078411759,42.36054365441443,0 -71.64639357857678,42.36035099161212,0 -71.64632878424234,42.3603426546554,0 -71.64602121418049,42.36029427652806,0 -71.64414178302795,42.35999865485326,0 -71.64406878342307,42.35998765397667,0 -71.6438917824876,42.35995865429052,0 -71.64316378270475,42.35984265430821,0 -71.64221278269295,42.35969465426143,0 -71.64189278182236,42.35964265413836,0 -71.64019678081016,42.35937565492517,0 -71.64057978058294,42.35941665518027,0 -71.63978278140554,42.35929565494649,0 -71.63875278055015,42.35914065508877,0 -71.63863878092063,42.35912265463514,0 -71.63709577967099,42.35888965468931,0 -71.63624777998265,42.3587586544264,0 -71.63403878000949,42.35842065459392,0 -71.63369077910473,42.35808965494076,0 -71.63248677839445,42.35715665398926,0 -71.63031677793583,42.35529865394168,0 -71.63022377695508,42.35521765393063,0 -71.63000877761688,42.35503065326694,0 -71.62842677706396,42.35365165346705,0 -71.62638477570231,42.3518806533506,0 -71.62476277548706,42.35050565346734,0 -71.6247487757574,42.35051265303842,0 -71.62470277562041,42.35047365323285,0 -71.62465579254869,42.35049569624663,0 -71.62432977550013,42.35064865318577,0 -71.62429277553744,42.35066665289592,0 -71.62393677531557,42.35083565351987,0 -71.62359577542729,42.35099565300555,0 -71.62356477590976,42.35101065349539,0 -71.62155177476036,42.3519616537952,0 -71.61973777435303,42.35281765430515,0 -71.61736677332671,42.35393765481794,0 -71.61675577338768,42.35422665463139,0 -71.61598277339493,42.35459065408366,0 -71.61245477242967,42.35625665512519,0 -71.61000777132817,42.35741165469214,0 -71.60989021514618,42.35758977128123,0 -71.6098757719403,42.35761165467492,0 -71.6098679927195,42.35762233312183,0 -71.60958877224805,42.35800565500752,0 -71.60832877090411,42.35979765571046,0 -71.60776677035274,42.36059465523138,0 -71.60745577037707,42.36103865502642,0 -71.60724477036976,42.361336656134,0 -71.60711177084319,42.3615266551891,0 -71.60699977001973,42.36168565595399,0 -71.60675577115688,42.3620326556739,0 -71.60656077090125,42.36230865579675,0 -71.60638077001224,42.36256465641264,0 -71.60634176983412,42.36261965628902,0 -71.60583877076218,42.36333665644767,0 -71.60545277046194,42.36388265713814,0 -71.60534876976243,42.36403065647014,0 -71.60525477028675,42.36416465622625,0 -71.60440476998376,42.36537265623016,0 -71.60306576938756,42.36727565755194,0 -71.60318777051997,42.36733765651665,0 -71.60322249073158,42.36735997745493,0 -71.60331376918684,42.36741865662053,0 -71.60579677100513,42.36887865719076,0 -71.60592677049164,42.36895465689175,0 -71.60634577051292,42.3692016574575,0 -71.60649377026599,42.36928865746253,0 -71.60692777069957,42.36954265696459,0 -71.60775977089504,42.37003065719017,0 -71.60760947081842,42.37012288724399,0 -71.60745177084883,42.37021965780733,0 -71.60646677092227,42.37081865745575,0 -71.60550877079282,42.37141665781146,0 -71.60246529581271,42.3732836208772,0 -71.59885276909722,42.37549965894127,0 -71.59822176798738,42.37588665905603,0 -71.59796376858604,42.37604565889486,0 -71.59387276724753,42.37855665946068,0 -71.59109576671067,42.38026166038064,0 -71.59019976659835,42.3808126593163,0 -71.58961176667968,42.38117266061526,0 -71.5883037658606,42.38197566085798,0 -71.58794076586791,42.3821986604898,0 -71.58501876459994,42.38399266088808,0 -71.58320176500409,42.38510466068655,0 -71.58250607346243,42.38553310767335,0 -71.58190276389331,42.38590466121285,0 -71.58004376404654,42.3869576617556,0 -71.58015076363677,42.38700666206348,0 -71.58510876486992,42.38920266210632,0 -71.58581676543292,42.38951666184891,0 -71.59055876615923,42.39162766246254,0 -71.60126537449843,42.39638525894499,0 -71.6025377716412,42.39695066314789,0 -71.60363477220575,42.39743766264444,0 -71.60425177165853,42.39771166288197,0 -71.6042585358573,42.39773227656793,0 -71.60427277230886,42.39777566304763,0 -71.60445877208557,42.39785366311443,0</coordinates></LinearRing></outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+  </Folder>
+  </Folder>
+  <Style id="PolyStyle70">
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <LineStyle>
+      <color>ffffffff</color>
+      <width>2.000000</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>00f0f0f0</color>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="PolyStyle80">
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <LineStyle>
+      <color>ff000000</color>
+      <width>0.100000</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>ffffffff</color>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="IconStyle100">
+    <IconStyle>
+      <Icon><href>Layer10_Symbol_495351f0_0.png</href></Icon>
+      <scale>0.250000</scale>
+    </IconStyle>
+    <LabelStyle>
+      <color>ffffffff</color>
+      <scale>1.083333</scale>
+    </LabelStyle>
+    <PolyStyle>
+      <color>ff000000</color>
+      <outline>0</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="PolyStyle120">
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <LineStyle>
+      <color>ff00ffff</color>
+      <width>2.000000</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>00f0f0f0</color>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="PolyStyle150">
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <LineStyle>
+      <color>7f6e6e6e</color>
+      <width>0.400000</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>7fa6a6a6</color>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="PolyStyle151">
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <LineStyle>
+      <color>7f6e6e6e</color>
+      <width>0.400000</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>7f030303</color>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="PolyStyle160">
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <LineStyle>
+      <color>7f6e6e6e</color>
+      <width>0.400000</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>7f9e9ed7</color>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="PolyStyle170">
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <LineStyle>
+      <color>7fffffff</color>
+      <width>1.500000</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>00f0f0f0</color>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="PolyStyle200">
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <LineStyle>
+      <color>7f6e6e6e</color>
+      <width>0.400000</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>7fdbba81</color>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="PolyStyle201">
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <LineStyle>
+      <color>7f6e6e6e</color>
+      <width>0.400000</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>7f6b2f07</color>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+</Document>
+</kml>
